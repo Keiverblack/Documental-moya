@@ -95,43 +95,28 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-            <summary>Ver hoteles cercanos disponibles</summary>
-            <div class="content" style="margin-left: 15px">
-            <h3>CitizenM Tower of London hotel</h3>
-            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
-            </p>
+                <summary>Ver hoteles cercanos disponibles</summary>
+                <div class="content" style="margin-left: 15px">
+                <h3>CitizenM Tower of London hotel</h3>
+                <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso."></p>
+                <p class="descripcion" data-es="Valoracion 4 estrellas"></p>
+                <br>
 
-            <br>
+                <h3>Novotel London Tower Bridge</h3>
+                <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente."></p>
+                <p class="descripcion" data-es="Valoracion: 4 estrellas"></p>
+                <br>
 
-            <h3>Novotel London Tower Bridge</h3>
-            <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.">
-            Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.5 (Basado en 3,349 reseñas)
-            </p>
-            
-            <br>
-
-            <h3>The Ritz London</h3>
-            <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.">
-            Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.
-            <br><br>
-            Categoría	Hotel de 5 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.3 (Basado en 1,433 reseñas)
-            </p>
-            <form action="form-hoteles.php" method="POST" class="reserva-form">
-                <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
-            </form>
-            <br><br>
+                <h3>The Ritz London</h3>
+                <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.">
+                </p>
+                <p class="descripcion" data-es="Valoracion 5 estrellas">
+                </p>
+                <form action="form-hoteles.php" method="POST" class="reserva-form">
+                    <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                    <button type="submit" class="btn-reservar">Reservar ahora</button>
+                </form>
+                <br><br>
             </details>
 
             
@@ -141,39 +126,23 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <div class="content" style="margin-left: 15px">
             <h3>Cento alla torre</h3>
             <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).">
-            Cocina moderna, a menudo con influencia italiana (por el nombre, "Cento Alla Torre")..
-            <br><br>
-            Valoración	4.7 de 5 estrellas
-            <br><br>
-            Es conocido por ser un lugar refinado y con una decoración cuidada. Es ideal para comidas de negocios o cenas elegantes.
-            <br><br>
-            Horario (General)	Lunes a domingo: 7:00–22:00
             </p>
-
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
+            </p>
             <br>
 
             <h3>Coppa Club Tower Bridge</h3>
             <p class="descripcion" data-es="Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.">
-            Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.
-            <br><br>
-            Valoración	4.1 de 5 estrellas
-            <br><br>
-            Es muy popular por su terraza y, en invierno, sus igloos transparentes y climatizados, que ofrecen vistas directas al Tower Bridge y al río Támesis. Es un lugar sociable, ideal para brunch o cenas informales con un toque especial.
-            <br><br>
-            Horario (General)	Lunes a viernes: 9:00–23:00 / Sábado y Domingo: Horario similar.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>Bodean's Tower Hill</h3>
             <p class="descripcion" data-es="BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).">
-            BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).
-            <br><br>
-            Valoración	4.3 de 5 estrellas
-            <br><br>
-            Diner de dos niveles con un ambiente relajado y casual. Cuenta con taburetes altos, cabinas y televisores que suelen retransmitir deportes. Es un lugar ruidoso y festivo, centrado en la comida de confort.
-            <br><br>
-            Horario (General)	Lunes a domingo: 12:00–22:00
+            </p>
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
             </p>
             <div></div>
             </details>
@@ -201,22 +170,19 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
-                <div class="content" style="margin-left: 15px">
-            <h3>Buckingham Gate Suites and Residences</h3>
-            <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.">
-            Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.
-            <br><br>
-            Categoría	Hotel de 5 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 de 5 (Basado en 948 reseñas)
-            </p>
-            <form action="form-hoteles.php" method="POST" class="reserva-form">
-                <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
-            </form>
-            <br><br>
-        </div>
+            <summary>Ver hoteles cercanos disponibles</summary>
+            <div class="content" style="margin-left: 15px">
+                <h3>Buckingham Gate Suites and Residences</h3>
+                    <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.">
+                    </p>
+                    <p class="descripcion" data-es="Valoracion 5 estrellas">
+                    </p>
+                    <form action="form-hoteles.php" method="POST" class="reserva-form">
+                        <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                        <button type="submit" class="btn-reservar">Reservar ahora</button>
+                    </form>
+                    <br><br>
+            </div>
             </details>
 
             <h2>Restaurantes Cercanos</h2>
@@ -225,44 +191,29 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>The Wolseley</h3>
             <p class="descripcion" data-es="Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).">
-           Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).
-            <br><br>
-            Valoración	4.4 de 5 estrellas
-            <br><br>
-            Es especialmente conocido por sus desayunos (considerados entre los mejores de Londres) y su tradicional té de la tarde.
-            <br><br>
-            Lunes a viernes: 7:00 AM – 11:00 PM / Sábados y domingos: 8:00 AM – 11:00 PM (10:00 PM domingos).
+            </p>
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>The Buckingham Arms</h3>
             <p class="descripcion" data-es="Comida Británica de pub tradicional (pub grub), con una selección de cervezas (ales) y vinos.">
-            Comida Británica de pub tradicional (pub grub), con una selección de cervezas (ales) y vinos.
-            <br><br>
-            Valoración	4.6 de 5 estrellas
-            <br><br>
-            Especializado en una buena selección de cervezas de barril y vinos. Perfecto para tomar una bebida después del trabajo o un almuerzo de pub.
-            <br><br>
-            Horario (General)	Lunes a sábado: 11:00 AM – 11:00 PM / Domingos: 12:00 PM – 10:00 PM.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.6 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>The Royal Quartel Cafe</h3>
             <p class="descripcion" data-es="Comida Europea Moderna con opciones abundantes como ensaladas, platos calientes y té de la tarde.">
-            Comida Europea Moderna con opciones abundantes como ensaladas, platos calientes y té de la tarde.
-            <br><br>
-            Valoración	3.9 de 5 estrellas
-            <br><br>
-            Ideal para comidas rápidas, ensaladas frescas y té de la tarde. Su ubicación lo hace conveniente para personas que trabajan o visitan la zona de Victoria/Buckingham Palace.
-            <br><br>
-            Horario (General)	Lunes a viernes: 7:30 AM – 7:00 PM / Sábados y domingos: 8:00 AM – 7:00 PM.
             </p>
-
+            <p class="descripcion" data-es="Valoración	3.9 de 5 estrellas">
+            </details>
             <br><br>
+            
             </div>
-</details>
+
 
         </section>
 
@@ -292,23 +243,17 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>The Resident Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
-            The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.7 de 5 (Basado en 889 reseñas)
             </p>
-
+            <p class="descripcion" data-es="Valoracion 4 estrellas">
+            </p>
             <br>
 
             <h3>Buckingham Gate Suites and Residences</h3>
             <p class="descripcion" data-es="Suites de Lujo y Residencias: El hotel ofrece suites y residencias de gran tamaño, algunas con capacidad para hasta 6 dormitorios. Proporciona la comodidad de un apartamento privado con los servicios completos de un hotel de lujo.">
-            Suites de Lujo y Residencias: El hotel ofrece suites y residencias de gran tamaño, algunas con capacidad para hasta 6 dormitorios. Proporciona la comodidad de un apartamento privado con los servicios completos de un hotel de lujo.
-            <br><br>
-            Categoría	Hotel de 5 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 de 5 (Basado en 948 reseñas)
             </p>
+            <p class="descripcion" data-es="Valoracion 5 estrellas">
+            </p>
+            <br>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
                 <button type="submit" class="btn-reservar">Reservar ahora</button>
@@ -325,39 +270,24 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
-            Pub tradicional con cerveza de barril y comida británica clásica.
-            <br><br>
-            Valoración	4.3 de 5 estrellas
-            <br><br>
-            Es un pub de estilo clásico que ofrece una selección de cervezas y un menú de comida de pub de buena calidad.
-            <br><br>
-            Horario Lunes a viernes: 9:30 AM – 10:30 PM / Sábados y domingos: Horario similar.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>Greggs</h3>
             <p class="descripcion" data-es="Greggs es la cadena de pastelería minorista más grande del Reino Unido, conocida por ofrecer comidas y tentempiés económicos.">
-            Greggs es la cadena de pastelería minorista más grande del Reino Unido, conocida por ofrecer comidas y tentempiés económicos.
-            <br><br>
-            Valoración	Se encuentra en casi todas las calles principales y centros de transporte. Por ejemplo, hay una sucursal cerca de la estación de London Bridge (con una puntuación de 3/5) y otra en la calle Strand (con 4.1/5).
-            <br><br>
-            Un desayuno rápido, un almuerzo de bajo costo o un tentempié en movimiento
-            <br><br>
-            Horario (General)	Suele abrir muy temprano (alrededor de las 6:00 AM) y cierra al anochecer.
+            </p>
+            <p class="descripcion" data-es="Valoración	4 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>Caffè Nero</h3>
             <p class="descripcion" data-es="Caffè Nero es una popular cadena de cafeterías, conocida por su ambiente de estilo italiano y su mobiliario cómodo.">
-            Caffè Nero es una popular cadena de cafeterías, conocida por su ambiente de estilo italiano y su mobiliario cómodo.
-            <br><br>
-            Valoración	Al igual que Greggs, se encuentra en zonas de mucho tránsito. Por ejemplo, hay una sucursal cerca de Trafalgar Square (3.8/5) y otra en Bridge St, cerca de Westminster (4.2/5).
-            <br><br>
-            IOfrece un ambiente más relajado y "europeo" que algunas de sus competidoras, con decoración oscura y sillones cómodos. Es un lugar popular para trabajar o socializar.
-            <br><br>
-            Horario (General)	Abre temprano (a menudo a las 6:30 AM) y cierra por la noche. Algunas sucursales en zonas de ocio (como Frith St) pueden cerrar mucho más tarde.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.1 de 5 estrellas">
             </p>
 
             <br><br>  
@@ -390,22 +320,16 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>Raya hotel Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
-            The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.7 de 5 (Basado en 889 reseñas)
+            </p>
+            <p class="descripcion" data-es="Valoracion 4 estrellas">
             </p>
 
             <br>
 
             <h3>Premier Inn London County Hall</h3>
             <p class="descripcion" data-es="Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye.">
-            Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye.
-            <br><br>
-            Categoría	Hotel de 3 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.3 de 5 (Basado en 3,412 reseñas)
+            </p>
+            <p class="descripcion" data-es="Valoracion 4 estrellas">
             </p>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
@@ -423,39 +347,23 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
-            Pub tradicional con cerveza de barril y comida británica clásica.
-            <br><br>
-            Valoración	4.3 de 5 estrellas
-            <br><br>
-            Es un pub de estilo clásico que ofrece una selección de cervezas y un menú de comida de pub de buena calidad.
-            <br><br>
-            Horario Lunes a viernes: 9:30 AM – 10:30 PM / Sábados y domingos: Horario similar.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>Troia</h3>
             <p class="descripcion" data-es="Troia es un restaurante popular en la zona de Southbank, conocido por su vibrante ambiente y su cocina mediterránea y de Oriente Medio.">
-            Troia es un restaurante popular en la zona de Southbank, conocido por su vibrante ambiente y su cocina mediterránea y de Oriente Medio.
-            <br><br>
-            Valoración	4.4 de 5 estrellas
-            <br><br>
-            El ambiente es de cafetería con un diseño llamativo: paredes de color escarlata y lámparas de mosaico tradicionales que le dan un toque acogedor y étnico.
-            <br><br>
-            Horario (General)	Lunes a domingo: 11:30 AM – 10:30 PM.
             </p>
-
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
+            </p>
             <br>
 
             <h3>Chinese food Zen</h3>
             <p class="descripcion" data-es="Chinatown, una opción popular para comida asiática rápida en el centro de Londres.">
-            Chinatown, una opción popular para comida asiática rápida en el centro de Londres.
-            <br><br>
-            Valoración	3.0 de 5 estrellas
-            <br><br>
-            Se enfoca en la velocidad y el volumen de servicio, como es común en la mayoría de los establecimientos de comida para llevar de Chinatown.
-            <br><br>
-            Horario (General)	Abre temprano (a menudo a las 6:30 AM) y cierra por la noche. Algunas sucursales en zonas de ocio (como Frith St) pueden cerrar mucho más tarde.
+            </p>
+            <p class="descripcion" data-es="Valoración	3 de 5 estrellas">
             </p>
 
             <br><br> 
@@ -489,33 +397,24 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>Bedford Place</h3>
             <p class="descripcion" data-es="Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
-            Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.
-            <br><br>
-            Categoría	Hotel de 3 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.1 de 5 (Basado en 1,234 reseñas)
+            </p>
+            <p class="descripcion" data-es="Valoracion 4.1 estrellas">
             </p>
 
             <br>
 
             <h3>Astor Museum Hostel</h3>
             <p class="descripcion" data-es="Este albergue es famoso por su ambiente social y su ubicación inmejorable cerca del Museo Británico.">
-            Este albergue es famoso por su ambiente social y su ubicación inmejorable cerca del Museo Británico.
-            <br>
-            Categoría	4.2 de 5 estrellas
-            <br>
-            Valoración (Puntuación)	4.2 de 5 (Basado en 2,345 reseñas)
             </p> 
+            <p class="descripcion" data-es="Valoracion 4.0 estrellas">
+            </p>
 
             <br>
 
             <h3>Ruskin Hotel</h3>
             <p class="descripcion" data-es="El Ruskin Hotel es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
-            El Ruskin Hotel es conocido por su ambiente acogedor y su ubicación céntrica en Blomsbury, cerca del Museo Británico.  
-            <br>
-            Categoría	Hotel de 3 estrellas
-            <br>
-            Valoración (Puntuación)	4.0 de 5 (Basado en 1,567 reseñas)
+            </p>
+            <p class="descripcion" data-es="Valoracion 3.5 estrellas">
             </p>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
@@ -531,44 +430,26 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <div class="content" style="margin-left: 15px">
             <h3>Gaia Mayfair (Gaia)</h3>
             <p class="descripcion" data-es="Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos.">
-            Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos
-            <br>
-            Valoración	4.5 de 5 estrellas
-            <br>
-            Ofrece una experiencia gastronómica elegante con platos tradicionales griegos y mediterráneos, presentados de manera moderna.
-            <br>
-            Horario (General)	Lunes a sábado: 12:00 PM – 11:00 PM / Domingos: 12:00 PM – 10:30 PM.
             </p>
-            
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
+            </p>
             <br>
 
             <h3>Café Le Cordon Bleu</h3>
             <p class="descripcion" data-es="Cocina Francesa y Pastelería de alta calidad, con una selección de platos clásicos y postres exquisitos.">
-            Cocina Francesa y Pastelería de alta calidad, con una selección de platos clásicos y
-            postres exquisitos.
-            <br>
-            Valoración	4.4 de 5 estrellas
-            <br>
-            Ofrece una experiencia culinaria refinada, con platos elaborados por chefs formados en la prestigiosa escuela Le Cordon Bleu.
-            <br>
-            Horario (General)	Lunes a viernes: 8:00 AM – 6:00 PM / Sábados y domingos: 9:00 AM – 5:00 PM.
+            </p>
+            <p class="descripcion" data-es="Valoración	4.4 de 5 estrellas">
             </p>
 
             <br>
 
             <h3>The Blue Door Bistro</h3>
             <p class="descripcion" data-es="Comida Británica Moderna con un enfoque en ingredientes locales y de temporada.">
-            Comida Británica Moderna con un enfoque en ingredientes locales y de temporada.
-            <br>
-            Valoración	4.3 de 5 estrellas
-            <br>
-            Ofrece un menú variado que combina platos tradicionales británicos con toques contemporáneos, en un ambiente acogedor.
-            <br>
-            Horario (General)	Lunes a sábado: 12:00 PM – 10:00 PM / Domingos: 12:00 PM – 9:00 PM.
             </p>
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
             <br><br>
             </div>
-</details>
+            </details>
         </section>
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/19MMYWZNiwU?si=EQbBE6mJ_50Q1h8_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
