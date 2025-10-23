@@ -92,10 +92,9 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El La Torre de Londres (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map1"></div>
-        </section>
 
-        <section class="lugar" id="6">
-            <h2 data-es="CitizenM Tower of London hotel" data-en="CitizenM Tower of London hotel">CitizenM Tower of London hotel</h2>
+            <h2>Hoteles</h2>
+            <h3>CitizenM Tower of London hotel</h3>
             <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
             El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
             <br><br>
@@ -103,24 +102,8 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
             </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
-        </section>
 
-        <section class="lugar" id="7">
-            <h2 data-es="Novotel London Tower Bridge" data-en="Novotel London Tower Bridge">Novotel London Tower Bridge</h2>
+            <h3>Novotel London Tower Bridge</h3>
             <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.">
             Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.
             <br><br>
@@ -128,45 +111,15 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.5 (Basado en 3,349 reseñas)
             </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
-        </section>
 
-        <section class="lugar" id="8">
-            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
-            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <h3>The Ritz London</h3>
+            <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.">
+            Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.
             <br><br>
-            Categoría	Hotel de 4 estrellas
+            Categoría	Hotel de 5 estrellas
             <br><br>
-            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            Valoración (Puntuación)	4.3 (Basado en 1,433 reseñas)
             </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
         </section>
 
         <section class="lugar" id="2">
