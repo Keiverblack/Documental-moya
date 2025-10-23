@@ -28,6 +28,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
      crossorigin=""/>
 
     <link rel="stylesheet" href="css/style_dashboard.css">
+    
 </head>
 <body class="light-mode">
     <a href="#top" id="scroll-to-top" class="scroll-to-top show">
@@ -212,7 +213,8 @@ Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagen
         <a href="https://webiujocatia.wordpress.com/" target="_blank"><img src="/img/IUJO.png" alt="" width="300px"></a>
     </footer>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
 
