@@ -1,21 +1,24 @@
+:root {
+    --header-height: 70px; /* ajustar si tu header es más alto/bajo */
+    --footer-height: 60px; /* ajustar al alto del footer */
+}
 body {
     font-family: 'Poppins', sans-serif;
-    background: url(img/12.gif);
+    background: url('../img/foto de header.gif');
     background-size: cover;
     margin: 0;
-    color: #333;
+    color: #fff;
 }
 .contenedor {
     max-width: 1200px;
     margin: 0 auto;
-    margin-top: 25vh;
-    background: #fff;
+    margin-top: 15vh;
+    background: rgb(85, 107, 134);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 h1 {
-    color: #6f00ffff;
+    color: rgb(255, 255, 255);
     border-bottom: 2px solid #00bfff;
     padding-bottom: 10px;
     margin-bottom: 30px;
@@ -47,16 +50,16 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 th {
-    background-color: #00a8e0ff;
-    color: white;
+    background-color: rgb(77, 93, 112);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 14px;
 }
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: rgb(77, 93, 112);
 }
 .btn-editar {
-    background-color: #6f00ffff;
+    background-color: rgb(51, 95, 175);
     color: white;
     border: none;
     padding: 8px 15px;
@@ -65,7 +68,7 @@ tr:nth-child(even) {
     transition: background-color 0.3s;
 }
 .btn-editar:hover {
-    background-color: #44029bff;
+    background-color: rgb(142, 154, 177);
 }
 .btn-logout {
     float: right;
@@ -97,7 +100,7 @@ tr:nth-child(even) {
 }
 
 .modal-contenido {
-    background-color: #fefefe;
+    background-color: rgb(85, 107, 134);
     margin: 5% auto; /* 5% desde arriba y centrado */
     padding: 30px;
     border: 1px solid #888;
@@ -148,12 +151,13 @@ tr:nth-child(even) {
     background-color: #007bff;
 }
 
+/* Header */
 .main-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 15px 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -168,6 +172,17 @@ header {
     border-bottom: solid 2px cornflowerblue;
 }
 
+.main-header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-header .logo h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
 footer {
     border-top: solid 2px cornflowerblue;
 }
@@ -179,8 +194,8 @@ footer {
 }
 
 .main-header .logo h2 {
-    font-size: 22px;
-    color: #00bfff;
+    font-size: 10px;
+    color: #ffffff;
 }
 
 /* Footer */
