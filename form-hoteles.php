@@ -75,16 +75,18 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <label for="integrantes">integrantes:</label>
             <input type="number" id="integrantes" name="integrantes" min="1" max="10" required title="Máximo 10 integrantes" oninput="if(this.value===''){return;} this.value = Math.max(1, Math.min(10, parseInt(this.value||0)));">
             <label for="checkin">Fecha de Entrada:</label>
-            <input type="date" id="checkin" name="checkin" required>
+            <input type="date" id="checkin" name="fecha_de_entrada" required>
             <label for="checkout">Fecha de salida:</label>
-            <input type="date" id="checkout" name="checkout" required>
+            <input type="date" id="checkout" name="fecha_de_salida" required>
 
-
-            <button type="submit">Reservar</button>
+            <form action="procesar_form_hotel.php" method="POST" class="reserva-form">
+                <button type="submit">Reservar</button>
+            </form>
+            
         </form>
     </div>
 <footer class="main-footer">
-    <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI:</p>
+    <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI:31694238</p>
     <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
 </footer> 
 <script src="validaciones.js"></script>  

@@ -124,10 +124,17 @@ $conexion->close();
                     <label for="edit-email">Correo Electrónico:</label>
                     <input type="email" id="edit-email" name="email" required>
 
+<<<<<<< HEAD
                     <button type="submit" name="accion" value="editar">Guardar Cambios</button>
                 </form>
             </div>
         </div></div>
+=======
+    <footer class="main-footer">
+        <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI: 31694238</p>
+        <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
+>>>>>>> 3b8b28ac0b49184a79efe780b8b620cb69efe54a
     <script>
         // Funcionalidad del Modal
         const modal = document.getElementById('modal-edicion');
