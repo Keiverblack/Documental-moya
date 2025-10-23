@@ -89,7 +89,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             </div>
             <figcaption><cite data-es="Imagenes de La Torre de Londres (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres" data-en="Images from The Tower of London (2015). [Author: Hilarmont]. Wikipedia.
-Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El La Torre de Londres (2015). [Author: Hilarmont]. Wikipedia.
+            Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El La Torre de Londres (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map1"></div>
         </section>
@@ -109,7 +109,7 @@ Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagen
             </div>
               <figcaption><cite data-es="Imagenes de El Palacio de Buckingham (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres" data-en="Images from Buckingham Palace (2015). [Author: Hilarmont]. Wikipedia.
-Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Palacio de Buckingham (2015). [Author: Hilarmont]. Wikipedia.
+            Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Palacio de Buckingham (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
 
             <div id="map2"></div>
@@ -130,7 +130,7 @@ Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagen
             </div>
             <figcaption><cite data-es="Imagenes de El Big Ben (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres" data-en="Images from Big Ben (2015). [Author: Hilarmont]. Wikipedia.
-Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Big Ben (2015). [Author: Hilarmont]. Wikipedia.
+            Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Big Ben (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map3"></div>
             
@@ -151,7 +151,7 @@ Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagen
             </div>
             <figcaption><cite data-es="Imagenes de El London Eye (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres" data-en="Images from The London Eye (2015). [Author: Hilarmont]. Wikipedia.
-Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El London Eye (2015). [Author: Hilarmont]. Wikipedia.
+            Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El London Eye (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map4"></div>
         </section>
@@ -159,7 +159,7 @@ Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagen
         <section class="lugar" id="5">
             <h2 data-es="5. El Museo Británico" data-en="5. The British Museum">5. El Museo Británico</h2>
             <p class="descripcion" data-es="El Museo Británico es uno de los museos más grandes y prestigiosos del mundo. Ubicado en el corazón de Londres, su colección de más de ocho millones de objetos abarca la historia humana desde los primeros tiempos hasta el presente. Sus galerías albergan tesoros de civilizaciones enteras. Aquí podrás ver la famosa Piedra de Rosetta, que fue clave para descifrar los jeroglíficos egipcios, y las icónicas Momias Egipcias. También encontrarás los mármoles del Partenón de Atenas y objetos de la Roma Antigua. El museo está diseñado para todos. Sus exhibiciones son visualmente impresionantes y bien organizadas, haciendo que sea fácil encontrar lo que más te interesa, ya sea la historia de los samuráis, los vikingos o los primeros seres humanos. La entrada al Museo Británico es gratuita, lo que lo convierte en una visita obligada si buscas cultura y conocimiento sin coste. Es una oportunidad de ver algunos de los artefactos más importantes de la historia en un solo lugar. Es una parada perfecta para cualquier amante de la historia, el arte o la arqueología." data-en="The British Museum is one of the largest and most prestigious museums in the world. Located in the heart of London, its collection of more than eight million objects spans human history from the earliest times to the present. Its galleries house treasures from entire civilizations. Here you can see the famous Rosetta Stone, which was key to deciphering Egyptian hieroglyphics, and the iconic Egyptian mummies. You'll also find the Parthenon Marbles in Athens and artifacts from Ancient Rome. The museum is designed for everyone. Its exhibits are visually stunning and well-organized, making it easy to find what interests you most, whether it's the history of the samurai, the Vikings, or early humans. Entry to the British Museum is free, making it a must-visit if you're looking for culture and knowledge without the cost. It's a chance to see some of history's most important artifacts in one place. It's a perfect stop for any history, art, or archaeology lover.">
-El Museo Británico es uno de los museos más grandes y prestigiosos del mundo. Ubicado en el corazón de Londres, su colección de más de ocho millones de objetos abarca la historia humana desde los primeros tiempos hasta el presente. Sus galerías albergan tesoros de civilizaciones enteras. Aquí podrás ver la famosa Piedra de Rosetta, que fue clave para descifrar los jeroglíficos egipcios, y las icónicas Momias Egipcias. También encontrarás los mármoles del Partenón de Atenas y objetos de la Roma Antigua. El museo está diseñado para todos. Sus exhibiciones son visualmente impresionantes y bien organizadas, haciendo que sea fácil encontrar lo que más te interesa, ya sea la historia de los samuráis, los vikingos o los primeros seres humanos. La entrada al Museo Británico es gratuita, lo que lo convierte en una visita obligada si buscas cultura y conocimiento sin coste. Es una oportunidad de ver algunos de los artefactos más importantes de la historia en un solo lugar. Es una parada perfecta para cualquier amante de la historia, el arte o la arqueología.</p>
+            El Museo Británico es uno de los museos más grandes y prestigiosos del mundo. Ubicado en el corazón de Londres, su colección de más de ocho millones de objetos abarca la historia humana desde los primeros tiempos hasta el presente. Sus galerías albergan tesoros de civilizaciones enteras. Aquí podrás ver la famosa Piedra de Rosetta, que fue clave para descifrar los jeroglíficos egipcios, y las icónicas Momias Egipcias. También encontrarás los mármoles del Partenón de Atenas y objetos de la Roma Antigua. El museo está diseñado para todos. Sus exhibiciones son visualmente impresionantes y bien organizadas, haciendo que sea fácil encontrar lo que más te interesa, ya sea la historia de los samuráis, los vikingos o los primeros seres humanos. La entrada al Museo Británico es gratuita, lo que lo convierte en una visita obligada si buscas cultura y conocimiento sin coste. Es una oportunidad de ver algunos de los artefactos más importantes de la historia en un solo lugar. Es una parada perfecta para cualquier amante de la historia, el arte o la arqueología.</p>
             <div class="carrusel">
                 <div class="imagenes-carrusel">
                     <img src="img/Museo 1.jpg" alt="Imagen 1">
@@ -172,10 +172,84 @@ El Museo Británico es uno de los museos más grandes y prestigiosos del mundo. 
             </div>
             <figcaption><cite data-es="Imagenes de El La Torre de Londres (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres" data-en="Images from The Tower of London (2015). [Author: Hilarmont]. Wikipedia.
-Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Museo Británico (2015). [Author: Hilarmont]. Wikipedia.
+            Retrieved September 10, 2025, from https://es.wikipedia.org/wiki/Londres">Imagenes de El Museo Británico (2015). [Author: Hilarmont]. Wikipedia.
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map5"></div>
         </section>
+
+        <section class="lugar" id="6">
+            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
+            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
+        </section>
+
+        <section class="lugar" id="7">
+            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
+            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
+        </section>
+
+        <section class="lugar" id="8">
+            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
+            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
         </section>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/19MMYWZNiwU?si=EQbBE6mJ_50Q1h8_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </main>
