@@ -1,16 +1,38 @@
+<?php
+session_start();
+
+// Si el usuario no está logueado, lo envía de vuelta al login
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== TRUE) {
+    header("Location: index.php");
+    exit;
+}
+
+// Si es un administrador, lo redirige a su panel
+if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
+    header("Location: admin_panel.php");
+    exit;
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style _hotel.css">
+        <script src="https://kit.fontawesome.com/cf1fb60fea.js" crossorigin="anonymous"></script>
+
     <title>Document</title>
 </head>
 <header class="main-header">
-        <div class="logo">
-            <img src="img/IUJO.png" alt="Logo" height="40">
-            <h2>Samuel Cubano & Keiver Blanco</h2>
-        </div>
+    <div class="logo">
+        <img src="img/IUJO.png" alt="Logo" height="40">
+        <h2>Samuel Cubano & Keiver Blanco</h2>
+        <a href="dashboard.php" class="regresar-link"><i class="fa-solid fa-house"></i></a>
+        <h4><i class="fa-solid fa-circle-user"></i> <?php echo htmlspecialchars($_SESSION['user_nombre']); ?></h4>
+    </div>
+    
 </header>
 <body>
     <div class="contenedor-formulario">
