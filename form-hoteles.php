@@ -23,6 +23,15 @@
                 <option value="Hotel A">CitizenM Tower of London hotel</option>
                 <option value="Hotel B">Novotel London Tower Bridge</option>
                 <option value="Hotel C">The Ritz London</option>
+                <option value="Hotel D">Buckingham Gate Suites and Residences</option>
+                <option value="Hotel E">The Savoy</option>
+                <option value="Hotel F">The Resident Victoria</option>
+                <option value="Hotel G">Buckingham Gate Suites and Residences</option>
+                <option value="Hotel H">Raya hotel Victoria</option>
+                <option value="Hotel I">Premier Inn London County Hall</option>
+                <option value="Hotel J">Bedford Place</option>
+                <option value="Hotel K">Astor Museum Hostel</option>
+                <option value="Hotel L">Ruskin Hotel</option>
             </select>
             
             <label for="pais">Pais:</label>

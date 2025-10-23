@@ -105,11 +105,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
             </p>
-            <form action="form-hoteles.php" method="POST" class="reserva-form">
-                <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
-            </form>
-
 
             <br>
 
@@ -121,7 +116,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.5 (Basado en 3,349 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
             
             <br>
 
@@ -133,7 +127,10 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.3 (Basado en 1,433 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
             <br><br>
             </details>
 
@@ -202,7 +199,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <div id="map2"></div>
 
-
             <h2>Hoteles Cercanos</h2>
             <details>
                 <summary>Más información sobre hoteles</summary>
@@ -215,11 +211,13 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.6 de 5 (Basado en 948 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
-
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
             <br><br>
         </div>
-</details>
+            </details>
 
             <h2>Restaurantes Cercanos</h2>
             <details>
@@ -300,7 +298,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.7 de 5 (Basado en 889 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
 
             <br>
 
@@ -312,7 +309,10 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.6 de 5 (Basado en 948 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
             
             <br><br>
             </div>
@@ -396,7 +396,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.7 de 5 (Basado en 889 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
 
             <br>
 
@@ -408,7 +407,10 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.3 de 5 (Basado en 3,412 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
             
             <br><br>
             </div>
@@ -493,7 +495,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.1 de 5 (Basado en 1,234 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
 
             <br>
 
@@ -505,7 +506,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br>
             Valoración (Puntuación)	4.2 de 5 (Basado en 2,345 reseñas)
             </p> 
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
 
             <br>
 
@@ -517,7 +517,10 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br>
             Valoración (Puntuación)	4.0 de 5 (Basado en 1,567 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
             <br><br>
             </div>
             </details>
