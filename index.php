@@ -59,7 +59,7 @@ if (isset($_SESSION['alerta'])) {
         <form action="procesar_registro.php" method="POST" id="form-registro" style="display: <?php echo $mostrar_registro ? 'block' : 'none'; ?>">
             <h1>Registrarse</h1>
             <label for="nombre_registro">Nombre Completo:</label>
-            <input type="text" id="nombre_registro" name="nombre" required>
+            <input type="text" id="nombre_registro" name="nombre" oninput="this.value = this.value.replace(/[^a-zA-Z\s]/g, '')" pattern="[A-Za-z\s]+" title="Solo se permiten letras." required>
 
             <label for="email_registro">Correo Electrónico:</label>
             <input type="email" id="email_registro" name="email" required>
@@ -90,5 +90,6 @@ if (isset($_SESSION['alerta'])) {
             mostrarFormulario('<?php echo $mostrar_registro ? 'registro' : 'login'; ?>');
         });
     </script>
+    <script src="validaciones.js"></script>
 </body>
 </html>
