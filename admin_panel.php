@@ -57,11 +57,12 @@ $conexion->close();
         <div class="logo">
             <img src="img/IUJO.png" alt="Logo" height="40">
             <h2>Samuel Cubano & Keiver Blanco</h2>
+            <h4><i class="fa-solid fa-user-secret"></i> Admin</h4>
+            <a href="logout.php" class="btn-logout">Cerrar Sesión</a>
         </div>
 </header>
 <body>
         <div class="contenedor">
-            <a href="logout.php" class="btn-logout">Cerrar Sesión (Admin)</a>
             <h1>Panel de Administrador</h1>
 
             <?php if ($mensaje): ?>
