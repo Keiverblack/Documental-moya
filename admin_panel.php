@@ -60,77 +60,74 @@ $conexion->close();
         </div>
 </header>
 <body>
-    <div class="contenedor">
-        <a href="logout.php" class="btn-logout">Cerrar Sesión (Admin)</a>
-        <h1>Panel de Administrador</h1>
+        <div class="contenedor">
+            <a href="logout.php" class="btn-logout">Cerrar Sesión (Admin)</a>
+            <h1>Panel de Administrador</h1>
 
-        <?php if ($mensaje): ?>
-            <div class="alerta-mensaje <?php echo $tipo_alerta; ?>">
-                <?php echo htmlspecialchars($mensaje); ?>
+            <?php if ($mensaje): ?>
+                <div class="alerta-mensaje <?php echo $tipo_alerta; ?>">
+                    <?php echo htmlspecialchars($mensaje); ?>
+                </div>
+            <?php endif; ?>
+
+            <h2>Tabla de Usuarios Registrados</h2>
+            
+            <?php if (!empty($usuarios)): ?>
+            
+            <div class="tabla-scroll-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Correo Electrónico</th>
+                            <th>Fecha de Registro</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($usuarios as $usuario): ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($usuario['id']); ?></td>
+                            <td><?php echo htmlspecialchars($usuario['nombre']); ?></td>
+                            <td><?php echo htmlspecialchars($usuario['email']); ?></td>
+                            <td><?php echo htmlspecialchars($usuario['fecha_registro']); ?></td>
+                            <td>
+                                <button class="btn-editar" 
+                                        onclick="abrirModal(
+                                            <?php echo $usuario['id']; ?>, 
+                                            '<?php echo htmlspecialchars(addslashes($usuario['nombre'])); ?>', 
+                                            '<?php echo htmlspecialchars(addslashes($usuario['email'])); ?>'
+                                        )">
+                                    Editar
+                                </button>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
             </div>
-        <?php endif; ?>
+            <?php else: ?>
+                <p>No hay usuarios registrados.</p>
+            <?php endif; ?>
 
-        <h2>Tabla de Usuarios Registrados</h2>
-        
-        <?php if (!empty($usuarios)): ?>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Correo Electrónico</th>
-                    <th>Fecha de Registro</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($usuarios as $usuario): ?>
-                <tr>
-                    <td><?php echo htmlspecialchars($usuario['id']); ?></td>
-                    <td><?php echo htmlspecialchars($usuario['nombre']); ?></td>
-                    <td><?php echo htmlspecialchars($usuario['email']); ?></td>
-                    <td><?php echo htmlspecialchars($usuario['fecha_registro']); ?></td>
-                    <td>
-                        <button class="btn-editar" 
-                                onclick="abrirModal(
-                                    <?php echo $usuario['id']; ?>, 
-                                    '<?php echo htmlspecialchars(addslashes($usuario['nombre'])); ?>', 
-                                    '<?php echo htmlspecialchars(addslashes($usuario['email'])); ?>'
-                                )">
-                            Editar
-                        </button>
-                    </td>
-                </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
-        <?php else: ?>
-            <p>No hay usuarios registrados.</p>
-        <?php endif; ?>
-    </div>
+        <div id="modal-edicion" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar" onclick="cerrarModal()">&times;</span>
+                <h2>Editar Usuario</h2>
+                <form action="procesar_edicion.php" method="POST">
+                    <input type="hidden" id="edit-id" name="id">
 
-    <div id="modal-edicion" class="modal">
-        <div class="modal-contenido">
-            <span class="cerrar" onclick="cerrarModal()">&times;</span>
-            <h2>Editar Usuario</h2>
-            <form action="procesar_edicion.php" method="POST">
-                <input type="hidden" id="edit-id" name="id">
-                
-                <label for="edit-nombre">Nombre:</label>
-                <input type="text" id="edit-nombre" name="nombre" required>
+                    <label for="edit-nombre">Nombre:</label>
+                    <input type="text" id="edit-nombre" name="nombre" required>
 
-                <label for="edit-email">Correo Electrónico:</label>
-                <input type="email" id="edit-email" name="email" required>
-                
-                <button type="submit" name="accion" value="editar">Guardar Cambios</button>
-            </form>
-        </div>
-    </div>
+                    <label for="edit-email">Correo Electrónico:</label>
+                    <input type="email" id="edit-email" name="email" required>
 
-    <footer class="main-footer">
-        <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco</p>
-        <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
-    </footer>
+                    <button type="submit" name="accion" value="editar">Guardar Cambios</button>
+                </form>
+            </div>
+        </div></div>
     <script>
         // Funcionalidad del Modal
         const modal = document.getElementById('modal-edicion');
@@ -155,6 +152,9 @@ $conexion->close();
             }
         }
     </script>
-
+    <footer class="main-footer">
+        <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco</p>
+        <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
 </body>
 </html>
