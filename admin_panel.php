@@ -52,6 +52,8 @@ $conexion->close();
     <title>Panel de Administrador</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style_admin.css">
+        <script src="https://kit.fontawesome.com/cf1fb60fea.js" crossorigin="anonymous"></script>
+
 </head>
 <header class="main-header">
         <div class="logo">

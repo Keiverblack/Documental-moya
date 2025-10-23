@@ -187,11 +187,6 @@ header {
     gap: 10px;
 }
 
-.main-header .logo h2 {
-    font-size: 20px;
-    color: #ffffff;
-}
-
 footer {
     border-top: solid 2px cornflowerblue;
 }
@@ -203,7 +198,7 @@ footer {
 }
 
 .main-header .logo h2 {
-    font-size: 10px;
+    font-size: 17px;
     color: #ffffff;
 }
 
@@ -219,21 +214,32 @@ footer {
     font-size: 14px;
 }
 
-i {
-    margin-left: 10px;
-    color: #ccc;
-    cursor: pointer;
-    font-size: 30px;
-    transition: color 0.3s ease;
-}
-
-i:hover {
-    color: #00bfff;
-}
 
 /* NUEVA CLASE PARA EL SCROLL DE LA TABLA */
 .tabla-scroll-contenedor { 
     max-height: 300px; 
     overflow-y: auto;
     margin-bottom: 20px; 
+}
+
+
+
+ h4 {
+    color: white;
+    margin: 0;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+h4 i { /* Espacio entre el ícono y el nombre */
+    font-size: 25px;
+    color: white;
+}
+
+h4 i:hover {
+    color: white;
 }
