@@ -94,6 +94,81 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <div id="map1"></div>
         </section>
 
+        <section class="lugar" id="6">
+            <h2 data-es="CitizenM Tower of London hotel" data-en="CitizenM Tower of London hotel">CitizenM Tower of London hotel</h2>
+            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
+        </section>
+
+        <section class="lugar" id="7">
+            <h2 data-es="Novotel London Tower Bridge" data-en="Novotel London Tower Bridge">Novotel London Tower Bridge</h2>
+            <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.">
+            Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.5 (Basado en 3,349 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
+        </section>
+
+        <section class="lugar" id="8">
+            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
+            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
+            <br><br>
+            Categoría	Hotel de 4 estrellas
+            <br><br>
+            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
+            </p>
+            <div class="carrusel">
+                <div class="imagenes-carrusel">
+                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
+                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
+                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
+                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
+                </div>
+                <button class="prev-button">&#10094;</button>
+                <button class="next-button">&#10095;</button>
+            </div>
+            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
+            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
+            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
+            <div id="map5"></div>
+        </section>
+
         <section class="lugar" id="2">
             <h2 data-es="2. El Palacio de Buckingham" data-en="2. Buckingham Palace">2. El Palacio de Buckingham</h2>
             <p class="descripcion" data-es="El Palacio de Buckingham es la residencia y oficina principal de la monarquía británica en Londres. Es uno de los edificios más icónicos de la ciudad y un símbolo de la realeza. El palacio no es solo una residencia, sino el centro de eventos de estado y ceremonias reales. Ha sido la residencia oficial de los monarcas británicos desde el reinado de la Reina Victoria, y hoy en día, es el hogar del Rey Carlos III. El palacio tiene 775 habitaciones y un jardín que se dice que es el más grande de Londres. Uno de los eventos más famosos que puedes presenciar es el cambio de guardia, una ceremonia formal en la que los guardias de la Reina, con sus icónicas túnicas rojas y sombreros de piel de oso, cambian sus turnos. Es una oportunidad única para acercarte a la realeza británica. Aunque el interior solo está abierto al público durante ciertas épocas del año, presenciar el cambio de guardia es una experiencia imperdible y muy popular. El palacio es un lugar impresionante para tomar fotos y sentir la historia de la monarquía." data-en="Buckingham Palace is the London residence and principal office of the British monarchy. It is one of the city's most iconic buildings and a symbol of royalty. The palace is not just a residence, but the center of state events and royal ceremonies. It has been the official residence of British monarchs since the reign of Queen Victoria, and today, it is the home of King Charles III. The palace has 775 rooms and a garden that is said to be the largest in London. One of the most famous events you can witness is the Changing of the Guard, a formal ceremony in which the Queen's Guard, wearing their iconic red robes and bearskin hats, change their shifts. It is a unique opportunity to get up close and personal with British royalty. Although the interior is only open to the public during certain times of the year, witnessing the Changing of the Guard is a must-see and very popular experience. The palace is a stunning place to take photos and experience the history of the monarchy.">El Palacio de Buckingham es la residencia y oficina principal de la monarquía británica en Londres. Es uno de los edificios más icónicos de la ciudad y un símbolo de la realeza. El palacio no es solo una residencia, sino el centro de eventos de estado y ceremonias reales. Ha sido la residencia oficial de los monarcas británicos desde el reinado de la Reina Victoria, y hoy en día, es el hogar del Rey Carlos III. El palacio tiene 775 habitaciones y un jardín que se dice que es el más grande de Londres. Uno de los eventos más famosos que puedes presenciar es el cambio de guardia, una ceremonia formal en la que los guardias de la Reina, con sus icónicas túnicas rojas y sombreros de piel de oso, cambian sus turnos. Es una oportunidad única para acercarte a la realeza británica. Aunque el interior solo está abierto al público durante ciertas épocas del año, presenciar el cambio de guardia es una experiencia imperdible y muy popular. El palacio es un lugar impresionante para tomar fotos y sentir la historia de la monarquía.</p>
@@ -177,80 +252,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <div id="map5"></div>
         </section>
 
-        <section class="lugar" id="6">
-            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
-            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
-            </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
-        </section>
-
-        <section class="lugar" id="7">
-            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
-            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
-            </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
-        </section>
-
-        <section class="lugar" id="8">
-            <h2 data-es="The Ritz London" data-en="The Ritz London">CitizenM Tower of London hotel</h2>
-            <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
-            <br><br>
-            Categoría	Hotel de 4 estrellas
-            <br><br>
-            Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
-            </p>
-            <div class="carrusel">
-                <div class="imagenes-carrusel">
-                    <img src="img/Hotel1-1.jpg" alt="Imagen 1">
-                    <img src="img/Hotel1-2.jpg" alt="Imagen 2">
-                    <img src="img/Hotel1-3.jpg" alt="Imagen 3">
-                    <img src="img/Hotel1-4.jpg" alt="Imagen 4">
-                </div>
-                <button class="prev-button">&#10094;</button>
-                <button class="next-button">&#10095;</button>
-            </div>
-            <figcaption><cite data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." 
-            data-en="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
-            Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</cite></figcaption>
-            <div id="map5"></div>
-        </section>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/19MMYWZNiwU?si=EQbBE6mJ_50Q1h8_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </main>
     <section class="formulario-container">
