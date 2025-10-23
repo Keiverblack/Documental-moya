@@ -70,11 +70,6 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
       <li><a href="#3" data-es="El Big Ben" data-en="Big Ben">El Big Ben</a></li>
       <li><a href="#4" data-es="El London Eye" data-en="London Eye">El London Eye</a></li>
       <li><a href="#5" data-es="El Museo Británico" data-en="British Museum">El Museo Británico</a></li>
-      <li><a href="#6" data-es="La Abadía de Westminster" data-en="Westminster Abbey">La Abadía de Westminster</a></li>
-      <li><a href="#7" data-es="El Tower Bridge" data-en="Tower Bridge">El Tower Bridge</a></li>
-      <li><a href="#8" data-es="El Mercado de Covent Garden" data-en="Covent Garden Market">El Mercado de Covent Garden</a></li>
-      <li><a href="#9" data-es="El Barrio de Notting Hill" data-en="Notting Hill">El Barrio de Notting Hill</a></li>
-      <li><a href="#10" data-es="La Galería Nacional" data-en="National Gallery">La Galería Nacional</a></li>
     </ol>
 </div>
 
