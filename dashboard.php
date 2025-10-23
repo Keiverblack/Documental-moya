@@ -96,6 +96,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <h2>Hoteles Cercanos</h2>
             <details>
             <summary>Some details</summary>
+            <div class="content" style="margin-left: 15px">
             <h3>CitizenM Tower of London hotel</h3>
             <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
             El citizenM es una cadena que se enfoca en el viajero moderno y eficiente, priorizando la tecnología, el diseño y las zonas comunes sociales, sobre las comodidades tradicionales (como grandes armarios o servicio de habitaciones completo).
@@ -139,7 +140,8 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             
             <h2>Restaurantes Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Más información sobre restaurantes</summary>
+            <div class="content" style="margin-left: 15px">
             <h3>Cento alla torre</h3>
             <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).">
             Cocina moderna, a menudo con influencia italiana (por el nombre, "Cento Alla Torre")..
@@ -176,6 +178,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Horario (General)	Lunes a domingo: 12:00–22:00
             </p>
+            <div></div>
             </details>
         </section>
 
@@ -202,7 +205,8 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre hoteles</summary>
+                <summary>Más información sobre hoteles</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>Buckingham Gate Suites and Residences</h3>
             <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.">
             Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.
@@ -214,12 +218,13 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
 
             <br><br>
-
+        </div>
 </details>
 
             <h2>Restaurantes Cercanos</h2>
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>The Wolseley</h3>
             <p class="descripcion" data-es="Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).">
            Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).
@@ -258,6 +263,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             </p>
 
             <br><br>
+            </div>
 </details>
 
         </section>
@@ -285,6 +291,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>The Resident Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
             The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.
@@ -308,12 +315,14 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
             
             <br><br>
+            </div>
             </details>
 
             <h2>Restaurantes Cercanos</h2>
 
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
             Pub tradicional con cerveza de barril y comida británica clásica.
@@ -351,8 +360,9 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Horario (General)	Abre temprano (a menudo a las 6:30 AM) y cierra por la noche. Algunas sucursales en zonas de ocio (como Frith St) pueden cerrar mucho más tarde.
             </p>
 
-            <br><br>         
-            </details>   
+            <br><br>  
+            </div>       
+            </details>
         </section>
 
         <section class="lugar" id="4">
@@ -377,6 +387,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <h2>Hoteles Cercanos</h2>
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>Raya hotel Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
             The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.
@@ -400,12 +411,14 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
             
             <br><br>
+            </div>
 
             </details>
 
             <h2>Restaurantes Cercanos</h2>
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
             Pub tradicional con cerveza de barril y comida británica clásica.
@@ -444,6 +457,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             </p>
 
             <br><br> 
+            </div>
             </details>
         </section>
 
@@ -470,6 +484,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <h2>Hoteles Cercanos</h2>
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>Bedford Place</h3>
             <p class="descripcion" data-es="Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
             Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.
@@ -504,11 +519,13 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             </p>
             <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
             <br><br>
+            </div>
             </details>
 
             <h2>Restaurantes Cercanos</h2>
             <details>
                 <summary>MAs informacion sobre restaurantes</summary>
+                <div class="content" style="margin-left: 15px">
             <h3>Gaia Mayfair (Gaia)</h3>
             <p class="descripcion" data-es="Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos.">
             Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos
@@ -547,6 +564,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Horario (General)	Lunes a sábado: 12:00 PM – 10:00 PM / Domingos: 12:00 PM – 9:00 PM.
             </p>
             <br><br>
+            </div>
 </details>
         </section>
 
@@ -588,5 +606,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
     <script src="script.js"></script>
     <script src="map.js"></script>
+
+
 </body>
 </html>

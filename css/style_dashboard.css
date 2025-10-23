@@ -571,3 +571,65 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
     color: rgb(31, 146, 128); /* Color del icono */
     font-size: 20px;
 }
+
+
+
+
+/*  Estilos para los elementos details y summary */
+
+details {
+    border-radius: 10px;
+    margin: 20px 0;
+    background: #7775751f;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+details:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+summary {
+    font-weight: 600;
+    font-size: 1.15em;
+    cursor: pointer;
+    color: rgb(101, 199, 238);
+    padding: 15px 20px;
+    outline: none; 
+    list-style: none;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+summary:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Ligero cambio al pasar el mouse */
+}
+
+summary::after {
+    content: '➤'; 
+    font-size: 1.4em; 
+    font-weight: 900;
+    color: #3498db; 
+    transition: transform 0.3s ease-out;
+    margin-left: 10px; 
+    transform: rotate(90deg); 
+}
+
+
+details[open] summary::after {
+    transform: rotate(270deg); 
+    color: #e74c3c;
+}
+
+
+details   .contenido {
+    padding: 15px 20px 20px; 
+    margin-top: 5px;
+    margin-left: 10px;
+    border-top: 1px solid #dcdde1;
+    color: #34495e;
+    line-height: 1.6;
+}
