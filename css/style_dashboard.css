@@ -502,7 +502,7 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
     display: flex;
     align-items: center;
     justify-content: center;
-    color: red; /* Color del icono */
+    color: rgb(148, 32, 32); /* Color del icono */
     font-size: 30px;
 }
 
@@ -510,7 +510,7 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blue; /* Color del icono */
+    color: rgb(61, 184, 233); /* Color del icono */
     font-size: 20px;
 }
 
@@ -518,6 +518,6 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
     display: flex;
     align-items: center;
     justify-content: center;
-    color: green; /* Color del icono */
+    color: rgb(184, 155, 59); /* Color del icono */
     font-size: 20px;
 }
