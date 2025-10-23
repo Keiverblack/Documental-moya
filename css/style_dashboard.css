@@ -222,14 +222,14 @@ body.dark-mode {
     margin-top: 40px;
 }
 
-i {
+header i {
     margin: 15px 10px;
     color: white;
     transition: color 0.3s ease;
     font-size: 30px;
 }
 
-i:hover {
+header i:hover {
     color: skyblue;
 }
 
@@ -498,16 +498,26 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
 /* COLORES A LOS PUNTOS DEL MAPA */
 
 /* Estilo para el marcador personalizado (punto verde) */
-i.green-dot-marker { 
-    border-radius: 50%;        /* Para hacerlo redondo */
-    width: 30px;               /* Debe coincidir con iconSize[0] */
-    height: 30px;              /* Debe coincidir con iconSize[1] */
-    border: 3px solid white;   /* Borde blanco para que destaque */
-    /* Opcional: CSS para centrar un icono de Font Awesome dentro del círculo */
+.lugar-dot-marker {      /* Para hacerlo redondo */            /* Debe coincidir con iconSize[0] *//* Debe coincidir con iconSize[1] */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: BLue; /* Color del icono */
-    font-size: 16px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    color: red; /* Color del icono */
+    font-size: 30px;
+}
+
+.hoteles-dot-marker {     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue; /* Color del icono */
+    font-size: 20px;
+}
+
+.restaurantes-dot-marker {     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green; /* Color del icono */
+    font-size: 20px;
 }
