@@ -1,10 +1,14 @@
+:root {
+    --header-height: 70px; /* ajustar si tu header es más alto/bajo */
+    --footer-height: 60px; /* ajustar al alto del footer */
+}
 body {
     font-family: 'Poppins', sans-serif;
     /* Fondo: Asegúrate que 'img/12.gif' exista */
-    background: rgb(190, 185, 185);
+    background: url('../img/foto de header.gif');
     background-size: cover;
     margin: 0;
-    padding: 0;
+    padding: calc(var(--header-height) + 20px) 0 calc(var(--footer-height) + 20px) 0; /* espacio arriba/abajo para header/footer fijos */
     color: #fff;
     display: flex;
     justify-content: center;
@@ -16,11 +20,11 @@ body {
 /* Contenedor del Formulario */
 .contenedor-formulario {
     /* Fondo de cristal (glassmorphism) */
-    background: rgb(92, 154, 235);
+    background: rgb(85, 107, 134);
     /* Recomendación: Puedes probar con rgba(0, 0, 0, 0.4) para un fondo más oscuro */
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-    padding: 40px 50px;
+    padding: 60px 70px;
     width: 90%;
     max-width: 400px;
     text-align: center;
@@ -34,7 +38,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* Agregar un margen vertical para asegurar que no se pegue al header/footer */
-    margin-top: 80px; 
+    margin-top: 15px; 
     margin-bottom: 80px;
 }
 
@@ -69,8 +73,8 @@ h1 {
 }
 
 .opciones-formulario button.activo {
-    color: #00bfff; /* Color azul neón */
-    border-bottom: 2px solid #00bfff;
+    color: #ffffff; /* Color azul neón */
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Inputs de texto, email y password */
@@ -98,10 +102,13 @@ input:focus {
 
 /* Botón principal (Entrar / Crear Cuenta) */
 button[type="submit"] {
+    display: block;
     width: 100%;
-    background: linear-gradient(90deg, #00bfff, #007bff);
+    max-width: 260px; /* ajustar según prefieras */
+    margin: 20px auto 0; /* centra horizontalmente y separa del resto */
+    background: linear-gradient(90deg, #00bfff, #77b3f3);
     color: #fff;
-    padding: 12px 0;
+    padding: 12px 30px;
     border: none;
     border-radius: 10px;
     font-size: 16px;
@@ -112,6 +119,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     transform: translateY(-2px);
+    background: linear-gradient(90deg, #77b3f3, #00bfff);
     box-shadow: 0 4px 12px rgba(0, 191, 255, 0.5);
 }
 
@@ -148,7 +156,7 @@ button[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 15px 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -170,15 +178,15 @@ header {
 }
 
 .main-header .logo h2 {
-    font-size: 22px;
-    color: #00bfff;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 /* Footer */
 .main-footer {
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 5px 0;
     position: fixed;
     bottom: 0;
     left: 0;
