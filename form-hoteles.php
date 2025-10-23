@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style _hotel.css">
     <title>Document</title>
 </head>
+<header class="main-header">
+        <div class="logo">
+            <img src="img/IUJO.png" alt="Logo" height="40">
+            <h2>Samuel Cubano & Keiver Blanco</h2>
+        </div>
+</header>
 <body>
-    
+    <div class="contenedor-formulario">
+        <form method="post" action="form-hoteles.php" class="form-reserva">
+            <h1>Reserva de Hoteles</h1>
+
+            <label for="hotel">Selecciona un Hotel:</label>
+            <select id="hotel" name="hotel" required>
+                <option value="">Hoteles Cercanos</option>
+                <option value="Hotel A">CitizenM Tower of London hotel</option>
+                <option value="Hotel B">Novotel London Tower Bridge</option>
+                <option value="Hotel C">The Ritz London</option>
+            </select>
+            
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="pais">Paises</option>
+                <option value="pais1">Alemania</option>
+                <option value="pais2">Argentina</option>
+                <option value="pais3">Dinamarca</option>
+                <option value="pais4">España</option>
+                <option value="pais5">Francia</option>
+                <option value="pais6">Italia</option>
+                <option value="pais7">Mexico</option>
+                <option value="pais8">Portugal</option>
+                <option value="pais9">Reino Unido</option>
+                <option value="pais10">Suiza</option>
+                <option value="pais11">Venezuela</option>
+
+            </select>
+            <label for="integrantes">integrantes:</label>
+            <input type="number" id="integrantes" name="integrantes" min="1" max="10" required title="Máximo 10 integrantes" oninput="if(this.value===''){return;} this.value = Math.max(1, Math.min(10, parseInt(this.value||0)));">
+            <label for="checkin">Fecha de Entrada:</label>
+            <input type="date" id="checkin" name="checkin" required>
+            <label for="checkout">Fecha de salida:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+
+            <button type="submit">Reservar</button>
+        </form>
+    </div>
+<footer class="main-footer">
+    <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI:</p>
+    <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
+</footer> 
+<script src="validaciones.js"></script>  
 </body>
 </html>

@@ -58,7 +58,7 @@ $conexion->close();
             <img src="img/IUJO.png" alt="Logo" height="40">
             <h2>Samuel Cubano & Keiver Blanco</h2>
         </div>
-    </header>
+</header>
 <body>
     <div class="contenedor">
         <a href="logout.php" class="btn-logout">Cerrar Sesión (Admin)</a>

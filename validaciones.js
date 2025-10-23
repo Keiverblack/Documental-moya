@@ -17,3 +17,14 @@ function soloNumeros(event) {
   }
   return true; // Si es un número, permite que se escriba
 }
+// nueva: obliga min/max en el mismo input al escribir/pegar
+function enforceMinMax(el, min, max) {
+  if (!el) return;
+  // si vacio no tocar
+  if (el.value === '') return;
+  // convertir a entero seguro
+  var v = parseInt(el.value, 10);
+  if (isNaN(v)) { el.value = ''; return; }
+  if (v > max) el.value = max;
+  if (v < min) el.value = min;
+}

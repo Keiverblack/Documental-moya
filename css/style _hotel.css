@@ -1,0 +1,185 @@
+:root{
+    --bg:#f4f7fb;
+    --card:#ffffff;
+    --primary:#2c7be5;
+    --accent:#6cc4ff;
+    --text:#263238;
+    --muted:#6b7a86;
+    --shadow: 0 10px 30px rgba(36,55,72,0.08);
+    --radius:12px;
+    --header-height:70px;
+    --footer-height:60px;
+    font-family: "Segoe UI", "Poppins", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Body: mezcla de gradiente + imagen de fondo */
+html,body{height:100%}
+body{
+    margin:0;
+    padding: calc(var(--header-height) + 20px) 16px calc(var(--footer-height) + 20px) 16px;
+    background:
+        linear-gradient(180deg, rgba(238,246,255,0.6) 0%, rgba(244,247,251,0.8) 100%),
+        url('../img/foto de header.gif') center/cover no-repeat;
+    background-blend-mode: overlay;
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Header fijo y translucido */
+.main-header{
+    width:100%;
+    max-width:var(--max-width);
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:12px;
+    position:fixed;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    height:var(--header-height);
+    padding:10px 18px;
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(8px);
+    border-bottom:1px solid rgba(255,255,255,0.06);
+    z-index:1000;
+    border-radius:0 0 12px 12px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+}
+.logo{display:flex;align-items:center;gap:12px}
+.logo img{height:44px;border-radius:6px}
+.logo h2{font-size:15px;margin:0;color:#fff;font-weight:600}
+
+/* Contenedor del formulario centrado */
+.contenedor-formulario{
+    width:100%;
+    max-width:var(--max-width);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    margin-top:18px;
+    padding:12px;
+}
+
+/* Tarjeta / formulario */
+.form-reserva{
+    width:100%;
+    background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(250,252,255,0.95));
+    border-radius:var(--radius);
+    padding:28px;
+    box-shadow:var(--shadow);
+    border:1px solid rgba(44,123,229,0.06);
+    max-width:600px;
+}
+
+/* Título */
+.form-reserva h1{
+    margin:0 0 12px 0;
+    font-size:20px;
+    color:var(--primary);
+}
+
+/* Labels y campos */
+.form-reserva label{
+    display:block;
+    font-size:13px;
+    color:var(--muted);
+    margin-top:12px;
+    margin-bottom:6px;
+}
+.form-reserva input[type="text"],
+.form-reserva input[type="number"],
+.form-reserva input[type="date"],
+.form-reserva select{
+    width:100%;
+    padding:10px 12px;
+    border:1px solid #e6eef9;
+    background: #fbfdff;
+    border-radius:8px;
+    font-size:14px;
+    color:var(--text);
+    transition:box-shadow .15s ease, border-color .15s ease, transform .08s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.form-reserva input:focus,
+.form-reserva select:focus{
+    outline:none;
+    border-color:var(--primary);
+    box-shadow:0 6px 18px rgba(44,123,229,0.08);
+    transform:translateY(-1px);
+}
+
+/* Botón principal */
+.form-reserva button[type="submit"]{
+    margin-top:18px;
+    width:100%;
+    padding:12px 16px;
+    background:linear-gradient(90deg,var(--primary),var(--accent));
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+    transition:transform .12s ease, box-shadow .12s ease;
+    box-shadow: 0 8px 20px rgba(44,123,229,0.18);
+}
+.form-reserva button[type="submit"]:hover{
+    transform:translateY(-3px);
+}
+
+/* Alertas (PHP) */
+.alerta-mensaje {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.alerta-mensaje.exito{background-color: rgba(212,237,218,0.9);color:#155724}
+.alerta-mensaje.error{background-color: rgba(248,215,218,0.9);color:#721c24}
+
+/* Footer fijo */
+.main-footer{
+    width:100%;
+    max-width:var(--max-width);
+    text-align:center;
+    padding:8px 12px;
+    position:fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(8px);
+    color:#ccc;
+    font-size:13px;
+    border-top:1px solid rgba(255,255,255,0.04);
+    border-radius:12px 12px 0 0;
+}
+
+/* Icono GitHub */
+.main-footer a { color:#ccc; text-decoration:none; margin-left:8px }
+.main-footer i { font-size:20px; color:inherit; transition:color .2s }
+.main-footer i:hover{ color:var(--accent) }
+
+/* Animaciones / responsive */
+@keyframes fadeIn {from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+.form-reserva{animation:fadeIn .6s ease-out}
+
+@media (max-width:720px){
+    :root { --max-width:480px; }
+    .form-reserva{padding:20px}
+    .logo h2{display:none}
+}
+
+@media (max-width:480px){
+    body{padding: calc(var(--header-height) + 12px) 10px calc(var(--footer-height) + 12px) 10px}
+    .contenedor-formulario{padding:8px}
+    .form-reserva{max-width:420px;border-radius:10px}
+    .main-footer{font-size:12px;padding:10px}
+}

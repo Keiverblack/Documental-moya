@@ -104,7 +104,11 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <br><br>
             Valoración (Puntuación)	4.6 (Basado en 4,893 reseñas)
             </p>
-            <input type="submit" value="Reservar ahora" name ="reservar" class="btn-reservar">
+            <form action="form-hoteles.php" method="POST" class="reserva-form">
+                <input type="hidden" name="hotel" value="CitizenM Tower of London">
+                <button type="submit" class="btn-reservar">Reservar ahora</button>
+            </form>
+
 
             <br>
 
