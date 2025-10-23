@@ -1,4 +1,4 @@
-var map = L.map('map1').setView([51.508238, -0.076169], 13);
+var map = L.map('map1').setView([51.508238, -0.076169], 15);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -36,7 +36,10 @@ var marker = L.marker([51.508238, -0.076169], {icon: lugarIcon}).addTo(map);
 var marker = L.marker([51.510595, -0.077494], {icon: hotelesIcon}).addTo(map);
 var marker = L.marker([51.510227, -0.076432], {icon: hotelesIcon}).addTo(map);
 var marker = L.marker([51.510407, -0.075255], {icon: hotelesIcon}).addTo(map);
-var marker = L.marker([51.519499, -0.084610], {icon: restaurantesIcon}).addTo(map);
+var marker = L.marker([51.510330, -0.075129], {icon: restaurantesIcon}).addTo(map);
+var marker = L.marker([51.508871, -0.078927], {icon: restaurantesIcon}).addTo(map);
+var marker = L.marker([51.509717, -0.078742], {icon: restaurantesIcon}).addTo(map);
+
 
 
 
