@@ -47,7 +47,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
     
     
         <div class="header-izquierda">
-    <h4>👤 <?php echo htmlspecialchars($_SESSION['user_nombre']); ?></h4>
+    <h4><i class="fa-solid fa-circle-user"></i> <?php echo htmlspecialchars($_SESSION['user_nombre']); ?></h4>
 </div>
 
 <div class="controls">
@@ -95,7 +95,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-            <summary>Some details</summary>
+            <summary>Ver hoteles cercanos disponibles</summary>
             <div class="content" style="margin-left: 15px">
             <h3>CitizenM Tower of London hotel</h3>
             <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.">
@@ -137,7 +137,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             
             <h2>Restaurantes Cercanos</h2>
             <details>
-                <summary>Más información sobre restaurantes</summary>
+                <summary>Ver restaurantes cercanos disponibles</summary>
             <div class="content" style="margin-left: 15px">
             <h3>Cento alla torre</h3>
             <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).">
@@ -201,7 +201,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-                <summary>Más información sobre hoteles</summary>
+                <summary>Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>Buckingham Gate Suites and Residences</h3>
             <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.">
@@ -221,7 +221,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Restaurantes Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>The Wolseley</h3>
             <p class="descripcion" data-es="Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).">
@@ -288,7 +288,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <h2>Hoteles Cercanos</h2>
 
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>The Resident Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
@@ -321,7 +321,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             <h2>Restaurantes Cercanos</h2>
 
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
@@ -386,7 +386,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>Raya hotel Victoria</h3>
             <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
@@ -419,7 +419,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Restaurantes Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>St Stephen's Tavern</h3>
             <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
@@ -485,7 +485,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Hoteles Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>Bedford Place</h3>
             <p class="descripcion" data-es="Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
@@ -527,7 +527,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <h2>Restaurantes Cercanos</h2>
             <details>
-                <summary>MAs informacion sobre restaurantes</summary>
+                <summary>Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
             <h3>Gaia Mayfair (Gaia)</h3>
             <p class="descripcion" data-es="Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos.">

@@ -148,7 +148,7 @@ body.dark-mode {
     margin: 20px auto; /* Centra las tarjetas */
     max-width: 800px;
     padding: 20px;
-    padding-bottom: 0;
+    padding-bottom:10px ;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     animation: slideIn 1s ease-out;
@@ -497,23 +497,32 @@ html {
 
 /* Estilo para el nombre de usuario */
 .header-izquierda h4 {
-    /* Elimina el margen por defecto del h4 para un mejor alineamiento */
-    margin: 0; /* Ajusta el tamaño de la fuente si es necesario */
+    margin: 0; 
+    padding: 0 15px 0 3px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+.header-izquierda i { /* Espacio entre el ícono y el nombre */
+    font-size: 25px;
+    color: white;
+}
+
+.header-izquierda i:hover {
+    color: white;
 }
 
 
 /* Posicionamiento del contenedor de la IZQUIERDA */
 .header-izquierda {
-    /* Mismas propiedades que tu .controls, pero para la izquierda */
     position: absolute;
     top: 20px;
-    /* Usar 'left' en lugar de 'right' */
     left: 20px; 
-
-    /* Usar Flexbox para alinear el ícono y el nombre */
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    gap: 10px; /* Espacio entre el ícono y el nombre */
+    align-items: center; 
+    gap: 10px;
 }
 
 /* Opcional: Estilos para que el nombre de usuario y el ícono se vean bien */
