@@ -55,7 +55,7 @@ $conexion->close();
 </head>
 <header class="main-header">
         <div class="logo">
-            <img src="img/IUJO (1).png" alt="Logo" height="40">
+            <img src="img/IUJO.png" alt="Logo" height="40">
             <h2>Samuel Cubano & Keiver Blanco</h2>
         </div>
     </header>
