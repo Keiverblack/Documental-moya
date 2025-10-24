@@ -93,7 +93,27 @@ tr:nth-child(even) {
 .btn-logout:hover {
     background-color: #c82333;
 }
-
+.tag {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background: #28a745;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-weight: 600;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity .25s ease, transform .25s ease, visibility .25s;
+    z-index: 9999;
+}
+.tag.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
 /* Estilos del Modal */
 .modal {
     display: none; 

@@ -81,14 +81,31 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <form action="procesar_form_hotel.php" method="POST" class="reserva-form">
                 <button type="submit">Reservar</button>
-            </form>
-            
         </form>
+        <!-- Etiqueta visual que se muestra al enviar -->
+        <div id="tagMessage" class="tag" role="status" aria-live="polite">¡Reservado! Ya se acaba de registrar</div>
     </div>
+    
 <footer class="main-footer">
     <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI:31694238</p>
     <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
 </footer> 
-<script src="validaciones.js"></script>  
+<script src="validaciones.js"></script> 
+<script src="validaciones.js"></script>
+<script>
+    // Muestra la etiqueta y luego envía el formulario
+    (function(){
+        const form = document.getElementById('reservaForm');
+        const tag = document.getElementById('tagMessage');
+        if (!form || !tag) return;
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            // mostrar tag
+            tag.classList.add('show');
+            // enviar el formulario después de una pequeña pausa para que se vea la etiqueta
+            setTimeout(() => form.submit(), 800);
+        });
+    })();
+</script>
 </body>
 </html>
