@@ -216,11 +216,28 @@ body.dark-mode {
 
 /* Footer */
 .footer {
-    background-color: #333;
-    color: white;
+    width: 100%;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 5px 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    color: #ccc;
+    font-size: 14px;
+    border-top: solid 2px cornflowerblue;
+}
+/* Estilo del ícono de GitHub */
+.footer i {
+    margin-left: 10px;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.footer i:hover {
+    color: #00bfff;
 }
 
 header i {
@@ -555,10 +572,6 @@ pero el .header-izquierda ahora será posicionado de forma relativa a él.
     /* Opcional: Si necesitas que quede *justo* al borde, es más complejo */
     /* top: 0; */
 }
-
-
-
-
 
 /* COLORES A LOS PUNTOS DEL MAPA */
 
