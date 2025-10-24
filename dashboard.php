@@ -93,57 +93,50 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map1"></div>
 
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-es="Hoteles Cercanos" data-en="Nearby Hotels">Hoteles Cercanos</h2>
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
+                <summary data-es="Ver hoteles cercanos disponibles" data-en="View nearby hotels available">Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-                <h3>CitizenM Tower of London hotel</h3>
-                <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso."></p>
-                <p class="descripcion" data-es="Valoracion 4 estrellas"></p>
+                <h3 data-es="CitizenM Tower of London hotel" data-en="CitizenM Tower of London hotel">CitizenM Tower of London hotel</h3>
+                <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." data-en="Simple hotel with modern, colorful rooms, plus a quiet lounge and luxurious bar.">Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</p>
+                <p class="descripcion" data-es="Valoracion 4 estrellas" data-en="4 star rating">Valoracion 4 estrellas</p>
                 <br>
 
-                <h3>Novotel London Tower Bridge</h3>
-                <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente."></p>
-                <p class="descripcion" data-es="Valoracion: 4 estrellas"></p>
+                <h3 data-es="Novotel London Tower Bridge" data-en="Novotel London Tower Bridge">Novotel London Tower Bridge</h3>
+                <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente." data-en="Functional and Modern: It offers bright and spacious rooms with a contemporary design that prioritizes comfort and ergonomics. It is known for its excellent customer service.">Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.</p>
+                <p class="descripcion" data-es="Valoracion: 4 estrellas" data-en="Rating: 4 stars">Valoracion: 4 estrellas</p>
                 <br>
 
-                <h3>The Ritz London</h3>
-                <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.">
-                </p>
+                <h3 data-es="The Ritz London" data-en="The Ritz London">The Ritz London</h3>
+                <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus." data-en="Classic Luxury: This iconic hotel offers a traditional luxury experience with elegantly decorated rooms, impeccable service, and a prime location near Piccadilly Circus.">Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.</p>
                 <p class="descripcion" data-es="Valoracion 5 estrellas">
                 </p>
                 <form action="form-hoteles.php" method="POST" class="reserva-form">
                     <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                    <button type="submit" class="btn-reservar">Reservar ahora</button>
+                    <button type="submit" class="btn-reservar" data-es="Reservar ahora" data-en="Book Now">Reservar ahora</button>
                 </form>
                 <br><br>
             </details>
 
-            
-            <h2>Restaurantes Cercanos</h2>
+
+            <h2 data-es="Restaurantes Cercanos" data-en="Nearby Restaurants">Restaurantes Cercanos</h2>
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-es="Ver restaurantes cercanos disponibles" data-en="View nearby restaurants available">Ver restaurantes cercanos disponibles</summary>
             <div class="content" style="margin-left: 15px">
-            <h3>Cento alla torre</h3>
-            <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
-            </p>
+            <h3 data-es="Cento alla torre" data-en="Cento alla torre">Cento alla torre</h3>
+            <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre)." data-en="Modern cuisine, often with Italian influence (by the name, Cento Alla Torre).">Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).</p>
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas" data-en="Rating 4.3 out of 5 stars">Valoración	4.3 de 5 estrellas</p>
             <br>
 
-            <h3>Coppa Club Tower Bridge</h3>
-            <p class="descripcion" data-es="Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
-            </p>
+            <h3 data-es="Coppa Club Tower Bridge" data-en="Coppa Club Tower Bridge">Coppa Club Tower Bridge</h3>
+            <p class="descripcion" data-es="Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes." data-en="Extensive modern menu featuring European dishes, pasta, pizza, salads, and meats.">Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.</p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas" data-en="Rating 4.2 out of 5 stars">Valoración	4.2 de 5 estrellas</p>
 
             <br>
 
-            <h3>Bodean's Tower Hill</h3>
-            <p class="descripcion" data-es="BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
-            </p>
+            <h3 data-es="Bodean's Tower Hill" data-en="Bodean's Tower Hill">Bodean's Tower Hill</h3>
+            <p class="descripcion" data-es="BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings)." data-en="American BBQ (smoked), specializing in ribs, pulled pork, brisket, and wings.">BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).</p>
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas" data-en="Rating 4.5 out of 5 stars">Valoración	4.5 de 5 estrellas</p>
             <div></div>
             </details>
         </section>
