@@ -45,6 +45,15 @@ if (isset($_SESSION['alerta_admin'])) {
 $conexion->close();
 ?>
 
+
+
+<?php if (isset($_GET['mensaje'])): ?>
+    <?php if ($_GET['mensaje'] === 'eliminado'): ?>
+        <div class="alerta-mensaje exito">✅ Usuario eliminado correctamente.</div>
+    <?php elseif ($_GET['mensaje'] === 'error'): ?>
+        <div class="alerta-mensaje error">❌ Error al eliminar usuario.</div>
+    <?php endif; ?>
+<?php endif; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -104,6 +113,11 @@ $conexion->close();
                                         )">
                                     Editar
                                 </button>
+
+                                <form action="eliminar_usuario.php" method="POST" style="display:inline;" onsubmit="return confirm('¿Seguro que deseas eliminar este usuario?');">
+        <input type="hidden" name="id_usuario" value="<?php echo $usuario['id']; ?>">
+        <button type="submit" class="btn-eliminar">Eliminar</button>
+    </form>
                             </td>
                         </tr>
                         <?php endforeach; ?>
