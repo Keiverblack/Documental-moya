@@ -93,57 +93,50 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map1"></div>
 
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-es="Hoteles Cercanos" data-en="Nearby Hotels">Hoteles Cercanos</h2>
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
+                <summary data-es="Ver hoteles cercanos disponibles" data-en="View nearby hotels available">Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-                <h3>CitizenM Tower of London hotel</h3>
-                <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso."></p>
-                <p class="descripcion" data-es="Valoracion 4 estrellas"></p>
+                <h3 data-es="CitizenM Tower of London hotel" data-en="CitizenM Tower of London hotel">CitizenM Tower of London hotel</h3>
+                <p class="descripcion" data-es="Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso." data-en="Simple hotel with modern, colorful rooms, plus a quiet lounge and luxurious bar.">Hotel sencillo con habitaciones modernas y coloridas, además de salón tranquilo y bar lujoso.</p>
+                <p class="descripcion" data-es="Valoracion 4 estrellas" data-en="4 star rating">Valoracion 4 estrellas</p>
                 <br>
 
-                <h3>Novotel London Tower Bridge</h3>
-                <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente."></p>
-                <p class="descripcion" data-es="Valoracion: 4 estrellas"></p>
+                <h3 data-es="Novotel London Tower Bridge" data-en="Novotel London Tower Bridge">Novotel London Tower Bridge</h3>
+                <p class="descripcion" data-es="Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente." data-en="Functional and Modern: It offers bright and spacious rooms with a contemporary design that prioritizes comfort and ergonomics. It is known for its excellent customer service.">Funcional y Moderno: Ofrece habitaciones luminosas y amplias con un diseño contemporáneo que prioriza la comodidad y la ergonomía. Es conocido por su excelente servicio al cliente.</p>
+                <p class="descripcion" data-es="Valoracion: 4 estrellas" data-en="Rating: 4 stars">Valoracion: 4 estrellas</p>
                 <br>
 
-                <h3>The Ritz London</h3>
-                <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.">
-                </p>
+                <h3 data-es="The Ritz London" data-en="The Ritz London">The Ritz London</h3>
+                <p class="descripcion" data-es="Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus." data-en="Classic Luxury: This iconic hotel offers a traditional luxury experience with elegantly decorated rooms, impeccable service, and a prime location near Piccadilly Circus.">Lujo Clásico: Este emblemático hotel ofrece una experiencia de lujo tradicional con habitaciones elegantemente decoradas, servicio impecable y una ubicación privilegiada cerca de Piccadilly Circus.</p>
                 <p class="descripcion" data-es="Valoracion 5 estrellas">
                 </p>
                 <form action="form-hoteles.php" method="POST" class="reserva-form">
                     <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                    <button type="submit" class="btn-reservar">Reservar ahora</button>
+                    <button type="submit" class="btn-reservar" data-es="Reservar ahora" data-en="Book Now">Reservar ahora</button>
                 </form>
                 <br><br>
             </details>
 
-            
-            <h2>Restaurantes Cercanos</h2>
+
+            <h2 data-es="Restaurantes Cercanos" data-en="Nearby Restaurants">Restaurantes Cercanos</h2>
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-es="Ver restaurantes cercanos disponibles" data-en="View nearby restaurants available">Ver restaurantes cercanos disponibles</summary>
             <div class="content" style="margin-left: 15px">
-            <h3>Cento alla torre</h3>
-            <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
-            </p>
+            <h3 data-es="Cento alla torre" data-en="Cento alla torre">Cento alla torre</h3>
+            <p class="descripcion" data-es="Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre)." data-en="Modern cuisine, often with Italian influence (by the name, Cento Alla Torre).">Cocina moderna, a menudo con influencia italiana (por el nombre, Cento Alla Torre).</p>
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas" data-en="Rating 4.3 out of 5 stars">Valoración	4.3 de 5 estrellas</p>
             <br>
 
-            <h3>Coppa Club Tower Bridge</h3>
-            <p class="descripcion" data-es="Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
-            </p>
+            <h3 data-es="Coppa Club Tower Bridge" data-en="Coppa Club Tower Bridge">Coppa Club Tower Bridge</h3>
+            <p class="descripcion" data-es="Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes." data-en="Extensive modern menu featuring European dishes, pasta, pizza, salads, and meats.">Menú amplio y moderno que incluye platos europeos, pastas, pizzas, ensaladas y carnes.</p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas" data-en="Rating 4.2 out of 5 stars">Valoración	4.2 de 5 estrellas</p>
 
             <br>
 
-            <h3>Bodean's Tower Hill</h3>
-            <p class="descripcion" data-es="BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
-            </p>
+            <h3 data-es="Bodean's Tower Hill" data-en="Bodean's Tower Hill">Bodean's Tower Hill</h3>
+            <p class="descripcion" data-es="BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings)." data-en="American BBQ (smoked), specializing in ribs, pulled pork, brisket, and wings.">BBQ americana (Ahuyamada), especializándose en costillas (ribs), cerdo desmenuzado (pulled pork), brisket y alitas (wings).</p>
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas" data-en="Rating 4.5 out of 5 stars">Valoración	4.5 de 5 estrellas</p>
             <div></div>
             </details>
         </section>
@@ -168,47 +161,42 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             <div id="map2"></div>
 
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-es="Hoteles Cercanos" data-en="Nearby Hotels">Hoteles Cercanos</h2>
             <details>
-            <summary>Ver hoteles cercanos disponibles</summary>
+            <summary data-es="Ver hoteles cercanos disponibles" data-en="View available nearby hotels">Ver hoteles cercanos disponibles</summary>
             <div class="content" style="margin-left: 15px">
-                <h3>Buckingham Gate Suites and Residences</h3>
-                    <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.">
-                    </p>
-                    <p class="descripcion" data-es="Valoracion 5 estrellas">
-                    </p>
+                <h3 data-es="Buckingham Gate Suites and Residences" data-en="Buckingham Gate Suites and Residences">Buckingham Gate Suites and Residences</h3>
+                    <p class="descripcion" data-es="Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción." data-en="This hotel is renowned for offering luxury suites and residences that combine the service of a high-end hotel with the privacy and space of an apartment. It is ideal for long stays, families, or guests seeking maximum luxury and discretion.">Este hotel es famoso por ofrecer suites y residencias de lujo que combinan el servicio de un hotel de alta gama con la privacidad y el espacio de un apartamento. Es ideal para estancias largas, familias o huéspedes que buscan el máximo lujo y discreción.</p>
+                    <p class="descripcion" data-es="Valoracion 5 estrellas" data-en="5 star rating">Valoracion 5 estrellas</p>
                     <form action="form-hoteles.php" method="POST" class="reserva-form">
                         <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                        <button type="submit" class="btn-reservar">Reservar ahora</button>
+                        <button type="submit" class="btn-reservar" data-es="Reservar Ahora" data-en="Book Now">Reservar Ahora</button>
                     </form>
                     <br><br>
             </div>
             </details>
 
-            <h2>Restaurantes Cercanos</h2>
+            <h2 data-es="Restaurantes Cercanos" data-en="Nearby Restaurants">Restaurantes Cercanos</h2>
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-es="Ver restaurantes cercanos disponibles" data-en="View available nearby restaurants">Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>The Wolseley</h3>
-            <p class="descripcion" data-es="Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).">
+            <h3 data-es="The Wolseley" data-en="The Wolseley">The Wolseley</h3>
+            <p class="descripcion" data-es="Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas)." data-en="Modern European cuisine, afternoon tea, and Grand Café dishes (from breakfast and seafood to full dinners).">Cocina Moderna Europea, té de la tarde y platos de Grand Café (desde desayuno y mariscos hasta cenas completas).
             </p>
-            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
-            </p>
+            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas" data-en="Rating 4.5 out of 5 stars">Valoración	4.5 de 5 estrellas</p>
 
             <br>
 
-            <h3>The Buckingham Arms</h3>
-            <p class="descripcion" data-es="Comida Británica de pub tradicional (pub grub), con una selección de cervezas (ales) y vinos.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.6 de 5 estrellas">
-            </p>
+            <h3 data-es="The Buckingham Arms" data-en="The Buckingham Arms">The Buckingham Arms</h3>
+            <p class="descripcion" data-es="Comida Británica de pub tradicional (pub grub), con una selección de cervezas (ales) y vinos." data-en="Traditional British pub grub, with a selection of beers (ales) and wines.">Comida Británica de pub tradicional (pub grub), con una selección de cervezas (ales) y vinos.</p>
+            <p class="descripcion" data-es="Valoración	4.6 de 5 estrellas" data-en="Rating 4.6 out of 5 stars">Valoración	4.6 de 5 estrellas</p>
 
             <br>
 
             <h3>The Royal Quartel Cafe</h3>
-            <p class="descripcion" data-es="Comida Europea Moderna con opciones abundantes como ensaladas, platos calientes y té de la tarde.">
+            <p class="descripcion" data-es="Comida Europea Moderna con opciones abundantes como ensaladas, platos calientes y té de la tarde." data-en="Modern European cuisine with hearty options such as salads, hot dishes, and afternoon tea.">Comida Europea Moderna con opciones abundantes como ensaladas, platos calientes y té de la tarde.
             </p>
-            <p class="descripcion" data-es="Valoración	3.9 de 5 estrellas">
+            <p class="descripcion" data-es="Valoración	3.9 de 5 estrellas" data-en="Rating 3.9 out of 5 stars">Valoración	3.9 de 5 estrellas</p>
             </details>
             <br><br>
             
@@ -236,59 +224,49 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map3"></div>
             
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-en="Nearby Hotels" data-es="Hoteles Cercanos">Hoteles Cercanos</h2>
 
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
+                <summary data-en="See available nearby hotels" data-es="Ver hoteles cercanos disponibles">Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>The Resident Victoria</h3>
-            <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 4 estrellas">
-            </p>
+            <h3 data-es="The Resident Victoria" data-en="The Resident Victoria">The Resident Victoria</h3>
+            <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro." data-en="The Resident Victoria is known for its focus on the comfort, privacy, and practicality of an apartment, combined with the service of a high-quality hotel. Its design is modern and sleek.">The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.</p>
+            <p class="descripcion" data-es="Valoracion 4 estrellas" data-en="4 star rating">Valoracion 4 estrellas</p>
             <br>
 
-            <h3>Buckingham Gate Suites and Residences</h3>
-            <p class="descripcion" data-es="Suites de Lujo y Residencias: El hotel ofrece suites y residencias de gran tamaño, algunas con capacidad para hasta 6 dormitorios. Proporciona la comodidad de un apartamento privado con los servicios completos de un hotel de lujo.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 5 estrellas">
-            </p>
+            <h3 data-es="Buckingham Gate Suites and Residences" data-en="Buckingham Gate Suites and Residences">Buckingham Gate Suites and Residences</h3>
+            <p class="descripcion" data-es="Suites de Lujo y Residencias: El hotel ofrece suites y residencias de gran tamaño, algunas con capacidad para hasta 6 dormitorios. Proporciona la comodidad de un apartamento privado con los servicios completos de un hotel de lujo." data-en="Luxury Suites and Residences: The hotel offers spacious suites and residences, some with up to six bedrooms. They provide the comfort of a private apartment with the full services of a luxury hotel.">Suites de Lujo y Residencias: El hotel ofrece suites y residencias de gran tamaño, algunas con capacidad para hasta 6 dormitorios. Proporciona la comodidad de un apartamento privado con los servicios completos de un hotel de lujo.</p>
+            <p class="descripcion" data-es="Valoracion 5 estrellas" data-en="5 star rating">Valoracion 5 estrellas</p>
             <br>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
+                <button type="submit" class="btn-reservar" data-en="Book now" data-es="Reservar Ahora">Reservar Ahora</button>
             </form>
             
             <br><br>
             </div>
             </details>
 
-            <h2>Restaurantes Cercanos</h2>
+            <h2 data-en="Nearby Restaurants" data-es="Restaurantes Cercanos">Restaurantes Cercanos</h2>
 
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-es="Ver restaurantes cercanos disponibles" data-en="See available nearby restaurants">Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>St Stephen's Tavern</h3>
-            <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
-            </p>
+            <h3 data-en="St Stephen's Tavern" data-es="St Stephen's Tavern">St Stephen's Tavern</h3>
+            <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica." data-en="Traditional pub with cask ale and classic British food.">Pub tradicional con cerveza de barril y comida británica clásica.</p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas" data-="Rating 4.2 out of 5 stars">Valoración	4.2 de 5 estrellas</p>
 
             <br>
 
-            <h3>Greggs</h3>
-            <p class="descripcion" data-es="Greggs es la cadena de pastelería minorista más grande del Reino Unido, conocida por ofrecer comidas y tentempiés económicos.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4 de 5 estrellas">
-            </p>
+            <h3 data-en="Greggs" data-es="Greggs">Greggs</h3>
+            <p class="descripcion" data-es="Greggs es la cadena de pastelería minorista más grande del Reino Unido, conocida por ofrecer comidas y tentempiés económicos." data-en="Greggs is the largest retail bakery chain in the UK, known for offering affordable meals and snacks.">Greggs es la cadena de pastelería minorista más grande del Reino Unido, conocida por ofrecer comidas y tentempiés económicos.</p>
+            <p class="descripcion" data-es="Valoración	4 de 5 estrellas" data-en="Rating 4 out of 5 stars">Valoración	4 de 5 estrellas</p>
 
             <br>
 
-            <h3>Caffè Nero</h3>
-            <p class="descripcion" data-es="Caffè Nero es una popular cadena de cafeterías, conocida por su ambiente de estilo italiano y su mobiliario cómodo.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.1 de 5 estrellas">
-            </p>
+            <h3 data-en="Caffè Nero" data-es="Caffè Nero">Caffè Nero</h3>
+            <p class="descripcion" data-es="Caffè Nero es una popular cadena de cafeterías, conocida por su ambiente de estilo italiano y su mobiliario cómodo." data-en="Caffè Nero is a popular coffee shop chain, known for its Italian-style ambiance and comfortable seating.">Caffè Nero es una popular cadena de cafeterías, conocida por su ambiente de estilo italiano y su mobiliario cómodo.</p>
+            <p class="descripcion" data-es="Valoración	4.1 de 5 estrellas" data-en="Rating 4.1 out of 5 stars">Valoración	4.1 de 5 estrellas</p>
 
             <br><br>  
             </div>       
@@ -314,26 +292,22 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map4"></div>
 
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-es="Hoteles Cercanos" data-en="Nearby Hotels">Hoteles Cercanos</h2>
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
+                <summary data-en="View available nearby hotels" data-es="Ver hoteles cercanos disponibles">Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>Raya hotel Victoria</h3>
-            <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 4 estrellas">
-            </p>
+            <h3 data-es="Raya hotel Victoria" data-en="Raya hotel Victoria">Raya hotel Victoria</h3>
+            <p class="descripcion" data-es="The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro." data-en="The Resident Victoria is known for its focus on comfort, privacy, and the practicality of an apartment, combined with high-quality hotel service. Its design is modern and sleek.">The Resident Victoria es conocido por su enfoque en la comodidad, la privacidad y la practicidad de un apartamento, combinado con el servicio de un hotel de alta calidad. Su diseño es moderno y pulcro.</p>
+            <p class="descripcion" data-es="Valoracion 4 estrellas" data-en="Rating 4 out of 5 stars">Valoracion 4 estrellas</p>
 
             <br>
 
-            <h3>Premier Inn London County Hall</h3>
-            <p class="descripcion" data-es="Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 4 estrellas">
-            </p>
+            <h3 data-en="Premier Inn London County Hall" data-es="Premier Inn London County Hall">Premier Inn London County Hall</h3>
+            <p class="descripcion" data-es="Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye." data-en="Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye.">Este hotel es famoso por su ubicación inmejorable junto al río Támesis, justo enfrente del Palacio de Westminster (Big Ben) y junto al London Eye.</p>
+            <p class="descripcion" data-es="Valoracion 4 estrellas" data-en="Rating 4 out of 5 stars">Valoracion 4 estrellas</p>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
+                <button type="submit" class="btn-reservar" data-en="Book Now" data-es="Reservar Ahora">Reservar Ahora</button>
             </form>
             
             <br><br>
@@ -341,30 +315,24 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
 
             </details>
 
-            <h2>Restaurantes Cercanos</h2>
+            <h2 data-en="Nearby Restaurants" data-es="Restaurantes Cercanos">Restaurantes Cercanos</h2>
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-en="View available nearby restaurants" data-es="Ver restaurantes cercanos disponibles">Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>St Stephen's Tavern</h3>
-            <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas">
-            </p>
+            <h3 data-en="St Stephen's Tavern" data-es="St Stephen's Tavern">St Stephen's Tavern</h3>
+            <p class="descripcion" data-es="Pub tradicional con cerveza de barril y comida británica clásica." data-en="Traditional pub with draft beer and classic British food.">Pub tradicional con cerveza de barril y comida británica clásica.</p>
+            <p class="descripcion" data-es="Valoración	4.2 de 5 estrellas" data-en="Rating 4.2 out of 5 stars">Valoración	4.2 de 5 estrellas</p>
 
             <br>
 
-            <h3>Troia</h3>
-            <p class="descripcion" data-es="Troia es un restaurante popular en la zona de Southbank, conocido por su vibrante ambiente y su cocina mediterránea y de Oriente Medio.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
-            </p>
+            <h3 data-en="Troia" data-es="Troia">Troia</h3>
+            <p class="descripcion" data-es="Troia es un restaurante popular en la zona de Southbank, conocido por su vibrante ambiente y su cocina mediterránea y de Oriente Medio." data-en="Troia is a popular restaurant in the Southbank area, known for its vibrant atmosphere and Mediterranean and Middle Eastern cuisine.">Troia es un restaurante popular en la zona de Southbank, conocido por su vibrante ambiente y su cocina mediterránea y de Oriente Medio.</p>
+            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas" data-en="Rating 4.3 out of 5 stars">Valoración	4.3 de 5 estrellas</p>
             <br>
 
-            <h3>Chinese food Zen</h3>
-            <p class="descripcion" data-es="Chinatown, una opción popular para comida asiática rápida en el centro de Londres.">
-            </p>
-            <p class="descripcion" data-es="Valoración	3 de 5 estrellas">
-            </p>
+            <h3 data-en="Chinese food Zen" data-es="Chinese food Zen">Chinese food Zen</h3>
+            <p class="descripcion" data-es="Chinatown, una opción popular para comida asiática rápida en el centro de Londres." data-en="Chinatown, a popular option for fast Asian food in central London.">Chinatown, una opción popular para comida asiática rápida en el centro de Londres.</p>
+            <p class="descripcion" data-es="Valoración	3 de 5 estrellas" data-en="Rating 3 out of 5 stars">Valoración	3 de 5 estrellas</p>
 
             <br><br> 
             </div>
@@ -391,62 +359,51 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
             Recuperado el 10 de septiembre de 2025, de https://es.wikipedia.org/wiki/Londres</cite></figcaption>
             <div id="map5"></div>
 
-            <h2>Hoteles Cercanos</h2>
+            <h2 data-en="Nearby Hotels" data-es="Hoteles Cercanos">Hoteles Cercanos</h2>
             <details>
-                <summary>Ver hoteles cercanos disponibles</summary>
+                <summary data-en="See available nearby hotels" data-es="Ver hoteles cercanos disponibles">Ver hoteles cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>Bedford Place</h3>
-            <p class="descripcion" data-es="Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 4.1 estrellas">
-            </p>
+            <h3 data-en="Bedford Place" data-es="Bedford Place">Bedford Place</h3>
+            <p class="descripcion" data-es="Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico." data-en="Bedford Place is known for its welcoming atmosphere and central location in Bloomsbury, close to the British Museum.">Bedford Place es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.</p>
+            <p class="descripcion" data-es="Valoracion 4.1 estrellas" data-en="Rating 4.1 out of 5 stars">Valoracion 4.1 estrellas</p>
 
             <br>
 
-            <h3>Astor Museum Hostel</h3>
-            <p class="descripcion" data-es="Este albergue es famoso por su ambiente social y su ubicación inmejorable cerca del Museo Británico.">
-            </p> 
-            <p class="descripcion" data-es="Valoracion 4.0 estrellas">
-            </p>
+            <h3 data-en="Astor Museum Hostel" data-es="Astor Museum Hostel">Astor Museum Hostel</h3>
+            <p class="descripcion" data-es="Este albergue es famoso por su ambiente social y su ubicación inmejorable cerca del Museo Británico." data-en="This hostel is famous for its social atmosphere and unbeatable location near the British Museum.">Este albergue es famoso por su ambiente social y su ubicación inmejorable cerca del Museo Británico.</p>
+            <p class="descripcion" data-es="Valoracion 4.0 estrellas" data-en="Rating 4.0 out of 5 stars">Valoracion 4.0 estrellas</p>
 
             <br>
 
-            <h3>Ruskin Hotel</h3>
-            <p class="descripcion" data-es="El Ruskin Hotel es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.">
-            </p>
-            <p class="descripcion" data-es="Valoracion 3.5 estrellas">
-            </p>
+            <h3 data-en="Ruskin Hotel" data-es="Ruskin Hotel">Ruskin Hotel</h3>
+            <p class="descripcion" data-es="El Ruskin Hotel es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico." data-en="The Ruskin Hotel is known for its cozy atmosphere and central location in Bloomsbury, close to the British Museum.">El Ruskin Hotel es conocido por su ambiente acogedor y su ubicación céntrica en Bloomsbury, cerca del Museo Británico.</p>
+            <p class="descripcion" data-es="Valoracion 3.5 estrellas" data-en="Rating 3.5 out of 5 stars">Valoracion 3.5 estrellas</p>
             <form action="form-hoteles.php" method="POST" class="reserva-form">
                 <input type="hidden" name="hotel" value="CitizenM Tower of London">
-                <button type="submit" class="btn-reservar">Reservar ahora</button>
+                <button type="submit" class="btn-reservar" data-en="Book Now" data-es="Reservar Ahora">Reservar Ahora</button>
             </form>
             <br><br>
             </div>
             </details>
 
-            <h2>Restaurantes Cercanos</h2>
+            <h2 data-en="Nearby Restaurants" data-es="Restaurantes Cercanos">Restaurantes Cercanos</h2>
             <details>
-                <summary>Ver restaurantes cercanos disponibles</summary>
+                <summary data-en="See available nearby restaurants" data-es="Ver restaurantes cercanos disponibles">Ver restaurantes cercanos disponibles</summary>
                 <div class="content" style="margin-left: 15px">
-            <h3>Gaia Mayfair (Gaia)</h3>
-            <p class="descripcion" data-es="Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.5 de 5 estrellas">
-            </p>
+            <h3 data-en="Gaia Mayfair" data-es="Gaia Mayfair">Gaia Mayfair</h3>
+            <p class="descripcion" data-es="Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos." data-en="Greek and Mediterranean cuisine with a focus on fresh ingredients and authentic flavors.">Comida Griega y Mediterránea con un enfoque en ingredientes frescos y sabores auténticos.</p>
+            <p class="descripcion" data-es="Valoración 4.5 de 5 estrellas" data-en="Rating 4.5 out of 5 stars">Valoración 4.5 de 5 estrellas</p>
             <br>
 
-            <h3>Café Le Cordon Bleu</h3>
-            <p class="descripcion" data-es="Cocina Francesa y Pastelería de alta calidad, con una selección de platos clásicos y postres exquisitos.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.4 de 5 estrellas">
-            </p>
+            <h3 data-en="Café Le Cordon Bleu" data-es="Café Le Cordon Bleu">Café Le Cordon Bleu</h3>
+            <p class="descripcion" data-es="Cocina Francesa y Pastelería de alta calidad, con una selección de platos clásicos y postres exquisitos." data-en="French cuisine and high-quality pastries, featuring a selection of classic dishes and exquisite desserts.">Cocina Francesa y Pastelería de alta calidad, con una selección de platos clásicos y postres exquisitos.</p>
+            <p class="descripcion" data-es="Valoración 4.4 de 5 estrellas" data-en="Rating 4.4 out of 5 stars">Valoración 4.4 de 5 estrellas</p>
 
             <br>
 
-            <h3>The Blue Door Bistro</h3>
-            <p class="descripcion" data-es="Comida Británica Moderna con un enfoque en ingredientes locales y de temporada.">
-            </p>
-            <p class="descripcion" data-es="Valoración	4.3 de 5 estrellas">
+            <h3 data-en="The Blue Door Bistro" data-es="The Blue Door Bistro">The Blue Door Bistro</h3>
+            <p class="descripcion" data-es="Comida Británica Moderna con un enfoque en ingredientes locales y de temporada." data-en="Modern British cuisine with a focus on local and seasonal ingredients.">Comida Británica Moderna con un enfoque en ingredientes locales y de temporada.</p>
+            <p class="descripcion" data-es="Valoración 4.3 de 5 estrellas" data-en="Rating 4.3 out of 5 stars">Valoración 4.3 de 5 estrellas</p>
             <br><br>
             </div>
             </details>
