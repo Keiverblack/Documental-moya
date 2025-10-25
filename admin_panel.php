@@ -111,12 +111,12 @@ $conexion->close();
                                             '<?php echo htmlspecialchars(addslashes($usuario['nombre'])); ?>', 
                                             '<?php echo htmlspecialchars(addslashes($usuario['email'])); ?>'
                                         )">
-                                    Editar
+                                    <i class="fa-solid fa-pencil"></i>
                                 </button>
 
                                 <form action="eliminar_usuario.php" method="POST" style="display:inline;" onsubmit="return confirm('¿Seguro que deseas eliminar este usuario?');">
         <input type="hidden" name="id_usuario" value="<?php echo $usuario['id']; ?>">
-        <button type="submit" class="btn-eliminar">Eliminar</button>
+        <button type="submit" class="btn-eliminar"><i class="fa-solid fa-trash"></i></button>
     </form>
                             </td>
                         </tr>
