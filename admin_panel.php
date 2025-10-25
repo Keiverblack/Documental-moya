@@ -145,7 +145,6 @@ $conexion->close();
                 </form>
             </div>
         </div></div>
-
     <footer class="main-footer">
         <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI: 31694238</p>
         <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
