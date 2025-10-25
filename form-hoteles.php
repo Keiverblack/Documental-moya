@@ -23,7 +23,7 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
     <link rel="stylesheet" href="css/style _hotel.css">
         <script src="https://kit.fontawesome.com/cf1fb60fea.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Reservaciones</title>
 </head>
 <header class="main-header">
     <div class="logo">
@@ -72,40 +72,23 @@ if (isset($_SESSION['es_admin']) && $_SESSION['es_admin'] === TRUE) {
                 <option value="pais11">Venezuela</option>
 
             </select>
-            <label for="integrantes">integrantes:</label>
-            <input type="number" id="integrantes" name="integrantes" min="1" max="10" required title="Máximo 10 integrantes" oninput="if(this.value===''){return;} this.value = Math.max(1, Math.min(10, parseInt(this.value||0)));">
-            <label for="checkin">Fecha de Entrada:</label>
-            <input type="date" id="checkin" name="fecha_de_entrada" required>
-            <label for="checkout">Fecha de salida:</label>
-            <input type="date" id="checkout" name="fecha_de_salida" required>
+                <label for="integrantes">integrantes:</label>
+                <input type="number" id="integrantes" name="integrantes" min="1" max="10" required title="Máximo 10 integrantes" oninput="if(this.value===''){return;} this.value = Math.max(1, Math.min(10, parseInt(this.value||0)));">
+                <label for="checkin">Fecha de Entrada:</label>
+                <input type="date" id="checkin" name="fecha_de_entrada" required>
+                <label for="checkout">Fecha de salida:</label>
+                <input type="date" id="checkout" name="fecha_de_salida" required>
 
             <form action="procesar_form_hotel.php" method="POST" class="reserva-form">
                 <button type="submit">Reservar</button>
+            </form>
         </form>
-        <!-- Etiqueta visual que se muestra al enviar -->
-        <div id="tagMessage" class="tag" role="status" aria-live="polite">¡Reservado! Ya se acaba de registrar</div>
     </div>
     
 <footer class="main-footer">
     <p>© <?php echo date("Y"); ?> Samuel Cubano CI: 32935820 & Keiver Blanco CI:31694238</p>
     <a href="https://github.com/SamuelCubano/Tarea-de-Login-y-Registro" target="_blank"><i class="fa-brands fa-github"></i></a>
 </footer> 
-<script src="validaciones.js"></script> 
 <script src="validaciones.js"></script>
-<script>
-    // Muestra la etiqueta y luego envía el formulario
-    (function(){
-        const form = document.getElementById('reservaForm');
-        const tag = document.getElementById('tagMessage');
-        if (!form || !tag) return;
-        form.addEventListener('submit', function(e){
-            e.preventDefault();
-            // mostrar tag
-            tag.classList.add('show');
-            // enviar el formulario después de una pequeña pausa para que se vea la etiqueta
-            setTimeout(() => form.submit(), 800);
-        });
-    })();
-</script>
 </body>
 </html>
